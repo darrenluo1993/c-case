@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/array/get-array-length.c",
+			"path" : "src/array/access-array.c",
 			"sourceGroupIndex" : 0
 		}
 	],

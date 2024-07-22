@@ -3,5 +3,5 @@ project(c_case C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(c_case src/array/get-array-length.c
+add_executable(c_case src/array/access-array.c
 )
