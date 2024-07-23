@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/darren/Workspaces/CLion/c-case/cmake-build-debug/
 
 build cmake_object_order_depends_target_c_case: phony || CMakeFiles/c_case.dir
 
-build CMakeFiles/c_case.dir/src/array/2d-array-step-size.c.o: C_COMPILER__c_case_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/array/2d-array-step-size.c || cmake_object_order_depends_target_c_case
-  DEP_FILE = CMakeFiles/c_case.dir/src/array/2d-array-step-size.c.o.d
+build CMakeFiles/c_case.dir/src/array/2d-array-addressing.c.o: C_COMPILER__c_case_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/array/2d-array-addressing.c || cmake_object_order_depends_target_c_case
+  DEP_FILE = CMakeFiles/c_case.dir/src/array/2d-array-addressing.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/c_case.dir
   OBJECT_FILE_DIR = CMakeFiles/c_case.dir/src/array
@@ -63,7 +63,7 @@ build CMakeFiles/c_case.dir/src/array/2d-array-step-size.c.o: C_COMPILER__c_case
 #############################################
 # Link the executable c_case
 
-build c_case: C_EXECUTABLE_LINKER__c_case_Debug CMakeFiles/c_case.dir/src/array/2d-array-step-size.c.o
+build c_case: C_EXECUTABLE_LINKER__c_case_Debug CMakeFiles/c_case.dir/src/array/2d-array-addressing.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/c_case.dir
   POST_BUILD = :
