@@ -21,7 +21,6 @@ int main() {
     }
     printf("\n");
 
-
     printf("Dynamic Array: ");
     for (int i = 0; i < size; i++) {
         printf("%d ", *(dynamicArray + i));
