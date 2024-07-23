@@ -44,3 +44,7 @@
 0	62	1721271864704112548	CMakeFiles/c_case.dir/assignment-operation.c.o	8eb452d9d5929778
 0	26	1720690387080077113	CMakeFiles/c_case.dir/file-read-write.c.o	e7f872fce313e220
 0	24	1721101928043506556	CMakeFiles/c_case.dir/extern/var-func/file1.c.o	f0275e80032315b1
+1	31	1721727795930348468	CMakeFiles/c_case.dir/src/array/dynamic-array.c.o	9aa29ddf39f703db
+31	50	1721727795960348467	c_case	90460eb6cd9a6225
+1	31	1721728380355331450	CMakeFiles/c_case.dir/src/array/dynamic-array.c.o	9aa29ddf39f703db
+31	51	1721728380385331449	c_case	90460eb6cd9a6225

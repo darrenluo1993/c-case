@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int main() {
-    int size = 5;
-    int *dynamicArray = (int *) malloc(size * sizeof(int)); // 动态数组内存分配
+    const int size = 5;
+    const int *dynamicArray = malloc(size * sizeof(int)); // 动态数组内存分配
 
     if (dynamicArray == NULL) {
         printf("Memory allocation failed.\n");
