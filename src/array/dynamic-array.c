@@ -3,7 +3,7 @@
 
 int main() {
     const int size = 5;
-    const int *dynamicArray = malloc(size * sizeof(int)); // 动态数组内存分配
+    int *dynamicArray = malloc(size * sizeof(int)); // 动态数组内存分配
 
     if (dynamicArray == NULL) {
         printf("Memory allocation failed.\n");
