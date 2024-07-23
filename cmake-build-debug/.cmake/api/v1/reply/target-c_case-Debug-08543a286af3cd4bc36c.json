@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/array/2d-array-addressing.c",
+			"path" : "src/array/dynamic-array.c",
 			"sourceGroupIndex" : 0
 		}
 	],

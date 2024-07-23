@@ -3,5 +3,5 @@ project(c_case C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(c_case src/array/2d-array-addressing.c
+add_executable(c_case src/array/dynamic-array.c
 )
