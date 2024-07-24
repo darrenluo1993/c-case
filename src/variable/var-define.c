@@ -1,10 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    char *chr = "张";
-    char *chr1 = "张三";
-    printf("%s\n", chr);
-    printf("%s\n", chr1);
+    char charArray[] = "张";
+    char *charPointer = charArray;
+    char charArray1[] = "张三";
+    char *charPointer1 = charArray1;
+    printf("%s\n", charArray);
+    printf("%c\n", charArray[0]);
+    printf("%c\n", *charPointer);
+    printf("%s\n", charArray1);
+    printf("%c\n", charArray1[0]);
+    printf("%c\n", *charPointer1);
 
     char a = 65;
     char b = 'A';

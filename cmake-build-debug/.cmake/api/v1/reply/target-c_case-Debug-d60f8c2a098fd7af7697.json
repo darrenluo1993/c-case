@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/array/dynamic-array.c",
+			"path" : "src/pointer/pointer-array.c",
 			"sourceGroupIndex" : 0
 		}
 	],
