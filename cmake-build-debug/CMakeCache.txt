@@ -198,6 +198,15 @@ c_case_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 c_case_SOURCE_DIR:STATIC=/home/darren/Workspaces/CLion/c-case
 
+//Value Computed by CMake
+int-pointer-array-1_BINARY_DIR:STATIC=/home/darren/Workspaces/CLion/c-case/cmake-build-debug
+
+//Value Computed by CMake
+int-pointer-array-1_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+int-pointer-array-1_SOURCE_DIR:STATIC=/home/darren/Workspaces/CLion/c-case
+
 
 ########################
 # INTERNAL cache entries

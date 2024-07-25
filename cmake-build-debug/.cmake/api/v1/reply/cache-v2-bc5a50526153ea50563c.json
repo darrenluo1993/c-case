@@ -1060,6 +1060,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/darren/Workspaces/CLion/c-case"
+		},
+		{
+			"name" : "int-pointer-array-1_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/darren/Workspaces/CLion/c-case/cmake-build-debug"
+		},
+		{
+			"name" : "int-pointer-array-1_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "int-pointer-array-1_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/darren/Workspaces/CLion/c-case"
 		}
 	],
 	"kind" : "cache",

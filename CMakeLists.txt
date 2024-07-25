@@ -3,4 +3,4 @@ project(c_case C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(c_case src/pointer/pointer-array.c)
+add_executable(c_case src/pointer/return-pointer-from-function.c)
