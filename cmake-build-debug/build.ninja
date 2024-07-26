@@ -164,6 +164,130 @@ build struct-pointer-as-function-parameter: C_EXECUTABLE_LINKER__struct-pointer-
   TARGET_FILE = struct-pointer-as-function-parameter
   TARGET_PDB = struct-pointer-as-function-parameter.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target calculate-struct-size
+
+
+#############################################
+# Order-only phony target for calculate-struct-size
+
+build cmake_object_order_depends_target_calculate-struct-size: phony || CMakeFiles/calculate-struct-size.dir
+
+build CMakeFiles/calculate-struct-size.dir/src/struct/calculate-struct-size.c.o: C_COMPILER__calculate-struct-size_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/struct/calculate-struct-size.c || cmake_object_order_depends_target_calculate-struct-size
+  DEP_FILE = CMakeFiles/calculate-struct-size.dir/src/struct/calculate-struct-size.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/calculate-struct-size.dir
+  OBJECT_FILE_DIR = CMakeFiles/calculate-struct-size.dir/src/struct
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target calculate-struct-size
+
+
+#############################################
+# Link the executable calculate-struct-size
+
+build calculate-struct-size: C_EXECUTABLE_LINKER__calculate-struct-size_Debug CMakeFiles/calculate-struct-size.dir/src/struct/calculate-struct-size.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/calculate-struct-size.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = calculate-struct-size
+  TARGET_PDB = calculate-struct-size.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target union-declare-define
+
+
+#############################################
+# Order-only phony target for union-declare-define
+
+build cmake_object_order_depends_target_union-declare-define: phony || CMakeFiles/union-declare-define.dir
+
+build CMakeFiles/union-declare-define.dir/src/union/union-declare-define.c.o: C_COMPILER__union-declare-define_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/union/union-declare-define.c || cmake_object_order_depends_target_union-declare-define
+  DEP_FILE = CMakeFiles/union-declare-define.dir/src/union/union-declare-define.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/union-declare-define.dir
+  OBJECT_FILE_DIR = CMakeFiles/union-declare-define.dir/src/union
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target union-declare-define
+
+
+#############################################
+# Link the executable union-declare-define
+
+build union-declare-define: C_EXECUTABLE_LINKER__union-declare-define_Debug CMakeFiles/union-declare-define.dir/src/union/union-declare-define.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/union-declare-define.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = union-declare-define
+  TARGET_PDB = union-declare-define.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target access-union-member-incorrect
+
+
+#############################################
+# Order-only phony target for access-union-member-incorrect
+
+build cmake_object_order_depends_target_access-union-member-incorrect: phony || CMakeFiles/access-union-member-incorrect.dir
+
+build CMakeFiles/access-union-member-incorrect.dir/src/union/access-union-member-incorrect.c.o: C_COMPILER__access-union-member-incorrect_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/union/access-union-member-incorrect.c || cmake_object_order_depends_target_access-union-member-incorrect
+  DEP_FILE = CMakeFiles/access-union-member-incorrect.dir/src/union/access-union-member-incorrect.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/access-union-member-incorrect.dir
+  OBJECT_FILE_DIR = CMakeFiles/access-union-member-incorrect.dir/src/union
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target access-union-member-incorrect
+
+
+#############################################
+# Link the executable access-union-member-incorrect
+
+build access-union-member-incorrect: C_EXECUTABLE_LINKER__access-union-member-incorrect_Debug CMakeFiles/access-union-member-incorrect.dir/src/union/access-union-member-incorrect.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/access-union-member-incorrect.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = access-union-member-incorrect
+  TARGET_PDB = access-union-member-incorrect.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target access-union-member-correct
+
+
+#############################################
+# Order-only phony target for access-union-member-correct
+
+build cmake_object_order_depends_target_access-union-member-correct: phony || CMakeFiles/access-union-member-correct.dir
+
+build CMakeFiles/access-union-member-correct.dir/src/union/access-union-member-correct.c.o: C_COMPILER__access-union-member-correct_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/union/access-union-member-correct.c || cmake_object_order_depends_target_access-union-member-correct
+  DEP_FILE = CMakeFiles/access-union-member-correct.dir/src/union/access-union-member-correct.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/access-union-member-correct.dir
+  OBJECT_FILE_DIR = CMakeFiles/access-union-member-correct.dir/src/union
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target access-union-member-correct
+
+
+#############################################
+# Link the executable access-union-member-correct
+
+build access-union-member-correct: C_EXECUTABLE_LINKER__access-union-member-correct_Debug CMakeFiles/access-union-member-correct.dir/src/union/access-union-member-correct.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/access-union-member-correct.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = access-union-member-correct
+  TARGET_PDB = access-union-member-correct.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -198,7 +322,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter
+build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct
 
 # =============================================================================
 # Built-in targets

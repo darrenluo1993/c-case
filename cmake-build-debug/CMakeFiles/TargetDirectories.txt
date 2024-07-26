@@ -2,5 +2,9 @@
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/access-struct-member.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/struct-as-function-parameter.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/struct-pointer-as-function-parameter.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/calculate-struct-size.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/union-declare-define.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/access-union-member-incorrect.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/access-union-member-correct.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/rebuild_cache.dir
