@@ -41,35 +41,128 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/darren/Workspaces/CLion/c-case/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target c_case
+# Object build statements for EXECUTABLE target struct-define-init
 
 
 #############################################
-# Order-only phony target for c_case
+# Order-only phony target for struct-define-init
 
-build cmake_object_order_depends_target_c_case: phony || CMakeFiles/c_case.dir
+build cmake_object_order_depends_target_struct-define-init: phony || CMakeFiles/struct-define-init.dir
 
-build CMakeFiles/c_case.dir/src/pointer/function/callback-function.c.o: C_COMPILER__c_case_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/pointer/function/callback-function.c || cmake_object_order_depends_target_c_case
-  DEP_FILE = CMakeFiles/c_case.dir/src/pointer/function/callback-function.c.o.d
+build CMakeFiles/struct-define-init.dir/src/struct/struct-define-init.c.o: C_COMPILER__struct-define-init_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/struct/struct-define-init.c || cmake_object_order_depends_target_struct-define-init
+  DEP_FILE = CMakeFiles/struct-define-init.dir/src/struct/struct-define-init.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/c_case.dir
-  OBJECT_FILE_DIR = CMakeFiles/c_case.dir/src/pointer/function
+  OBJECT_DIR = CMakeFiles/struct-define-init.dir
+  OBJECT_FILE_DIR = CMakeFiles/struct-define-init.dir/src/struct
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target c_case
+# Link build statements for EXECUTABLE target struct-define-init
 
 
 #############################################
-# Link the executable c_case
+# Link the executable struct-define-init
 
-build c_case: C_EXECUTABLE_LINKER__c_case_Debug CMakeFiles/c_case.dir/src/pointer/function/callback-function.c.o
+build struct-define-init: C_EXECUTABLE_LINKER__struct-define-init_Debug CMakeFiles/struct-define-init.dir/src/struct/struct-define-init.c.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/c_case.dir
+  OBJECT_DIR = CMakeFiles/struct-define-init.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = c_case
-  TARGET_PDB = c_case.dbg
+  TARGET_FILE = struct-define-init
+  TARGET_PDB = struct-define-init.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target access-struct-member
+
+
+#############################################
+# Order-only phony target for access-struct-member
+
+build cmake_object_order_depends_target_access-struct-member: phony || CMakeFiles/access-struct-member.dir
+
+build CMakeFiles/access-struct-member.dir/src/struct/access-struct-member.c.o: C_COMPILER__access-struct-member_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/struct/access-struct-member.c || cmake_object_order_depends_target_access-struct-member
+  DEP_FILE = CMakeFiles/access-struct-member.dir/src/struct/access-struct-member.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/access-struct-member.dir
+  OBJECT_FILE_DIR = CMakeFiles/access-struct-member.dir/src/struct
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target access-struct-member
+
+
+#############################################
+# Link the executable access-struct-member
+
+build access-struct-member: C_EXECUTABLE_LINKER__access-struct-member_Debug CMakeFiles/access-struct-member.dir/src/struct/access-struct-member.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/access-struct-member.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = access-struct-member
+  TARGET_PDB = access-struct-member.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target struct-as-function-parameter
+
+
+#############################################
+# Order-only phony target for struct-as-function-parameter
+
+build cmake_object_order_depends_target_struct-as-function-parameter: phony || CMakeFiles/struct-as-function-parameter.dir
+
+build CMakeFiles/struct-as-function-parameter.dir/src/struct/struct-as-function-parameter.c.o: C_COMPILER__struct-as-function-parameter_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/struct/struct-as-function-parameter.c || cmake_object_order_depends_target_struct-as-function-parameter
+  DEP_FILE = CMakeFiles/struct-as-function-parameter.dir/src/struct/struct-as-function-parameter.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/struct-as-function-parameter.dir
+  OBJECT_FILE_DIR = CMakeFiles/struct-as-function-parameter.dir/src/struct
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target struct-as-function-parameter
+
+
+#############################################
+# Link the executable struct-as-function-parameter
+
+build struct-as-function-parameter: C_EXECUTABLE_LINKER__struct-as-function-parameter_Debug CMakeFiles/struct-as-function-parameter.dir/src/struct/struct-as-function-parameter.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/struct-as-function-parameter.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = struct-as-function-parameter
+  TARGET_PDB = struct-as-function-parameter.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target struct-pointer-as-function-parameter
+
+
+#############################################
+# Order-only phony target for struct-pointer-as-function-parameter
+
+build cmake_object_order_depends_target_struct-pointer-as-function-parameter: phony || CMakeFiles/struct-pointer-as-function-parameter.dir
+
+build CMakeFiles/struct-pointer-as-function-parameter.dir/src/struct/struct-pointer-as-function-parameter.c.o: C_COMPILER__struct-pointer-as-function-parameter_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/struct/struct-pointer-as-function-parameter.c || cmake_object_order_depends_target_struct-pointer-as-function-parameter
+  DEP_FILE = CMakeFiles/struct-pointer-as-function-parameter.dir/src/struct/struct-pointer-as-function-parameter.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/struct-pointer-as-function-parameter.dir
+  OBJECT_FILE_DIR = CMakeFiles/struct-pointer-as-function-parameter.dir/src/struct
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target struct-pointer-as-function-parameter
+
+
+#############################################
+# Link the executable struct-pointer-as-function-parameter
+
+build struct-pointer-as-function-parameter: C_EXECUTABLE_LINKER__struct-pointer-as-function-parameter_Debug CMakeFiles/struct-pointer-as-function-parameter.dir/src/struct/struct-pointer-as-function-parameter.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/struct-pointer-as-function-parameter.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = struct-pointer-as-function-parameter
+  TARGET_PDB = struct-pointer-as-function-parameter.dbg
 
 
 #############################################
@@ -105,7 +198,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony c_case
+build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter
 
 # =============================================================================
 # Built-in targets

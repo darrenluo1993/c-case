@@ -3,4 +3,7 @@ project(c_case C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(c_case src/pointer/function/callback-function.c)
+add_executable(struct-define-init src/struct/struct-define-init.c)
+add_executable(access-struct-member src/struct/access-struct-member.c)
+add_executable(struct-as-function-parameter src/struct/struct-as-function-parameter.c)
+add_executable(struct-pointer-as-function-parameter src/struct/struct-pointer-as-function-parameter.c)

@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "c_case",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "access-struct-member::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-access-struct-member-Debug-59d206faa3f8b3d0e5f3.json",
+					"name" : "access-struct-member",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "struct-as-function-parameter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-struct-as-function-parameter-Debug-85ba452a6c34be4d9872.json",
+					"name" : "struct-as-function-parameter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "struct-define-init::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-struct-define-init-Debug-26c596f772350a1f6a35.json",
+					"name" : "struct-define-init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "struct-pointer-as-function-parameter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-struct-pointer-as-function-parameter-Debug-62653380c5e110b0e82e.json",
+					"name" : "struct-pointer-as-function-parameter",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/darren/Workspaces/CLion/c-case/cmake-build-debug",
+		"source" : "/home/darren/Workspaces/CLion/c-case"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
