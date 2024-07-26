@@ -6,5 +6,10 @@
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/union-declare-define.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/access-union-member-incorrect.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/access-union-member-correct.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/struct-and-bit-field.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/declare-use-bit-field.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/declare-use-bit-field-1.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/use-bit-field-by-pointer.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/bit-field-memsize-test.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -288,6 +288,161 @@ build access-union-member-correct: C_EXECUTABLE_LINKER__access-union-member-corr
   TARGET_FILE = access-union-member-correct
   TARGET_PDB = access-union-member-correct.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target struct-and-bit-field
+
+
+#############################################
+# Order-only phony target for struct-and-bit-field
+
+build cmake_object_order_depends_target_struct-and-bit-field: phony || CMakeFiles/struct-and-bit-field.dir
+
+build CMakeFiles/struct-and-bit-field.dir/src/bitfield/struct-and-bit-field.c.o: C_COMPILER__struct-and-bit-field_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/bitfield/struct-and-bit-field.c || cmake_object_order_depends_target_struct-and-bit-field
+  DEP_FILE = CMakeFiles/struct-and-bit-field.dir/src/bitfield/struct-and-bit-field.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/struct-and-bit-field.dir
+  OBJECT_FILE_DIR = CMakeFiles/struct-and-bit-field.dir/src/bitfield
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target struct-and-bit-field
+
+
+#############################################
+# Link the executable struct-and-bit-field
+
+build struct-and-bit-field: C_EXECUTABLE_LINKER__struct-and-bit-field_Debug CMakeFiles/struct-and-bit-field.dir/src/bitfield/struct-and-bit-field.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/struct-and-bit-field.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = struct-and-bit-field
+  TARGET_PDB = struct-and-bit-field.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target declare-use-bit-field
+
+
+#############################################
+# Order-only phony target for declare-use-bit-field
+
+build cmake_object_order_depends_target_declare-use-bit-field: phony || CMakeFiles/declare-use-bit-field.dir
+
+build CMakeFiles/declare-use-bit-field.dir/src/bitfield/declare-use-bit-field.c.o: C_COMPILER__declare-use-bit-field_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/bitfield/declare-use-bit-field.c || cmake_object_order_depends_target_declare-use-bit-field
+  DEP_FILE = CMakeFiles/declare-use-bit-field.dir/src/bitfield/declare-use-bit-field.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/declare-use-bit-field.dir
+  OBJECT_FILE_DIR = CMakeFiles/declare-use-bit-field.dir/src/bitfield
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target declare-use-bit-field
+
+
+#############################################
+# Link the executable declare-use-bit-field
+
+build declare-use-bit-field: C_EXECUTABLE_LINKER__declare-use-bit-field_Debug CMakeFiles/declare-use-bit-field.dir/src/bitfield/declare-use-bit-field.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/declare-use-bit-field.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = declare-use-bit-field
+  TARGET_PDB = declare-use-bit-field.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target declare-use-bit-field-1
+
+
+#############################################
+# Order-only phony target for declare-use-bit-field-1
+
+build cmake_object_order_depends_target_declare-use-bit-field-1: phony || CMakeFiles/declare-use-bit-field-1.dir
+
+build CMakeFiles/declare-use-bit-field-1.dir/src/bitfield/declare-use-bit-field-1.c.o: C_COMPILER__declare-use-bit-field-1_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/bitfield/declare-use-bit-field-1.c || cmake_object_order_depends_target_declare-use-bit-field-1
+  DEP_FILE = CMakeFiles/declare-use-bit-field-1.dir/src/bitfield/declare-use-bit-field-1.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/declare-use-bit-field-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/declare-use-bit-field-1.dir/src/bitfield
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target declare-use-bit-field-1
+
+
+#############################################
+# Link the executable declare-use-bit-field-1
+
+build declare-use-bit-field-1: C_EXECUTABLE_LINKER__declare-use-bit-field-1_Debug CMakeFiles/declare-use-bit-field-1.dir/src/bitfield/declare-use-bit-field-1.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/declare-use-bit-field-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = declare-use-bit-field-1
+  TARGET_PDB = declare-use-bit-field-1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target use-bit-field-by-pointer
+
+
+#############################################
+# Order-only phony target for use-bit-field-by-pointer
+
+build cmake_object_order_depends_target_use-bit-field-by-pointer: phony || CMakeFiles/use-bit-field-by-pointer.dir
+
+build CMakeFiles/use-bit-field-by-pointer.dir/src/bitfield/use-bit-field-by-pointer.c.o: C_COMPILER__use-bit-field-by-pointer_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/bitfield/use-bit-field-by-pointer.c || cmake_object_order_depends_target_use-bit-field-by-pointer
+  DEP_FILE = CMakeFiles/use-bit-field-by-pointer.dir/src/bitfield/use-bit-field-by-pointer.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/use-bit-field-by-pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles/use-bit-field-by-pointer.dir/src/bitfield
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target use-bit-field-by-pointer
+
+
+#############################################
+# Link the executable use-bit-field-by-pointer
+
+build use-bit-field-by-pointer: C_EXECUTABLE_LINKER__use-bit-field-by-pointer_Debug CMakeFiles/use-bit-field-by-pointer.dir/src/bitfield/use-bit-field-by-pointer.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/use-bit-field-by-pointer.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = use-bit-field-by-pointer
+  TARGET_PDB = use-bit-field-by-pointer.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bit-field-memsize-test
+
+
+#############################################
+# Order-only phony target for bit-field-memsize-test
+
+build cmake_object_order_depends_target_bit-field-memsize-test: phony || CMakeFiles/bit-field-memsize-test.dir
+
+build CMakeFiles/bit-field-memsize-test.dir/src/bitfield/bit-field-memsize-test.c.o: C_COMPILER__bit-field-memsize-test_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/bitfield/bit-field-memsize-test.c || cmake_object_order_depends_target_bit-field-memsize-test
+  DEP_FILE = CMakeFiles/bit-field-memsize-test.dir/src/bitfield/bit-field-memsize-test.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/bit-field-memsize-test.dir
+  OBJECT_FILE_DIR = CMakeFiles/bit-field-memsize-test.dir/src/bitfield
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bit-field-memsize-test
+
+
+#############################################
+# Link the executable bit-field-memsize-test
+
+build bit-field-memsize-test: C_EXECUTABLE_LINKER__bit-field-memsize-test_Debug CMakeFiles/bit-field-memsize-test.dir/src/bitfield/bit-field-memsize-test.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/bit-field-memsize-test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bit-field-memsize-test
+  TARGET_PDB = bit-field-memsize-test.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -322,7 +477,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct
+build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test
 
 # =============================================================================
 # Built-in targets
