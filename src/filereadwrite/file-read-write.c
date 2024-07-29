@@ -9,6 +9,11 @@ int main(int argc, char *argv[]) {
     /* 输出fprintf的返回值，用于检查写入是否成功 */
     printf("fprintf returned %d\n", rtn_val);
 
+    /* 将格式化的字符串写入文件，并返回写入的字符数 */
+    rtn_val = fprintf(file, "%d,%s,%d,%s\n", 6, "Mike", 11, "男");
+    /* 输出fprintf的返回值，用于检查写入是否成功 */
+    printf("fprintf returned %d\n", rtn_val);
+
     /* 将字符串写入文件，不包括格式化信息，并返回写入的字符数 */
     rtn_val = fputs("5,Mary,12,男\n", file);
     /* 输出fputs的返回值，用于检查写入是否成功 */

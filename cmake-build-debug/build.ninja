@@ -443,6 +443,409 @@ build bit-field-memsize-test: C_EXECUTABLE_LINKER__bit-field-memsize-test_Debug 
   TARGET_FILE = bit-field-memsize-test
   TARGET_PDB = bit-field-memsize-test.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target typedef-vs-define
+
+
+#############################################
+# Order-only phony target for typedef-vs-define
+
+build cmake_object_order_depends_target_typedef-vs-define: phony || CMakeFiles/typedef-vs-define.dir
+
+build CMakeFiles/typedef-vs-define.dir/src/typedef/typedef-vs-define.c.o: C_COMPILER__typedef-vs-define_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/typedef/typedef-vs-define.c || cmake_object_order_depends_target_typedef-vs-define
+  DEP_FILE = CMakeFiles/typedef-vs-define.dir/src/typedef/typedef-vs-define.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/typedef-vs-define.dir
+  OBJECT_FILE_DIR = CMakeFiles/typedef-vs-define.dir/src/typedef
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target typedef-vs-define
+
+
+#############################################
+# Link the executable typedef-vs-define
+
+build typedef-vs-define: C_EXECUTABLE_LINKER__typedef-vs-define_Debug CMakeFiles/typedef-vs-define.dir/src/typedef/typedef-vs-define.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/typedef-vs-define.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = typedef-vs-define
+  TARGET_PDB = typedef-vs-define.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target getchar-and-putchar
+
+
+#############################################
+# Order-only phony target for getchar-and-putchar
+
+build cmake_object_order_depends_target_getchar-and-putchar: phony || CMakeFiles/getchar-and-putchar.dir
+
+build CMakeFiles/getchar-and-putchar.dir/src/io/getchar-and-putchar.c.o: C_COMPILER__getchar-and-putchar_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/io/getchar-and-putchar.c || cmake_object_order_depends_target_getchar-and-putchar
+  DEP_FILE = CMakeFiles/getchar-and-putchar.dir/src/io/getchar-and-putchar.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/getchar-and-putchar.dir
+  OBJECT_FILE_DIR = CMakeFiles/getchar-and-putchar.dir/src/io
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target getchar-and-putchar
+
+
+#############################################
+# Link the executable getchar-and-putchar
+
+build getchar-and-putchar: C_EXECUTABLE_LINKER__getchar-and-putchar_Debug CMakeFiles/getchar-and-putchar.dir/src/io/getchar-and-putchar.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/getchar-and-putchar.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = getchar-and-putchar
+  TARGET_PDB = getchar-and-putchar.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gets-and-puts
+
+
+#############################################
+# Order-only phony target for gets-and-puts
+
+build cmake_object_order_depends_target_gets-and-puts: phony || CMakeFiles/gets-and-puts.dir
+
+build CMakeFiles/gets-and-puts.dir/src/io/gets-and-puts.c.o: C_COMPILER__gets-and-puts_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/io/gets-and-puts.c || cmake_object_order_depends_target_gets-and-puts
+  DEP_FILE = CMakeFiles/gets-and-puts.dir/src/io/gets-and-puts.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/gets-and-puts.dir
+  OBJECT_FILE_DIR = CMakeFiles/gets-and-puts.dir/src/io
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gets-and-puts
+
+
+#############################################
+# Link the executable gets-and-puts
+
+build gets-and-puts: C_EXECUTABLE_LINKER__gets-and-puts_Debug CMakeFiles/gets-and-puts.dir/src/io/gets-and-puts.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/gets-and-puts.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = gets-and-puts
+  TARGET_PDB = gets-and-puts.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scanf-and-printf
+
+
+#############################################
+# Order-only phony target for scanf-and-printf
+
+build cmake_object_order_depends_target_scanf-and-printf: phony || CMakeFiles/scanf-and-printf.dir
+
+build CMakeFiles/scanf-and-printf.dir/src/io/scanf-and-printf.c.o: C_COMPILER__scanf-and-printf_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/io/scanf-and-printf.c || cmake_object_order_depends_target_scanf-and-printf
+  DEP_FILE = CMakeFiles/scanf-and-printf.dir/src/io/scanf-and-printf.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/scanf-and-printf.dir
+  OBJECT_FILE_DIR = CMakeFiles/scanf-and-printf.dir/src/io
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scanf-and-printf
+
+
+#############################################
+# Link the executable scanf-and-printf
+
+build scanf-and-printf: C_EXECUTABLE_LINKER__scanf-and-printf_Debug CMakeFiles/scanf-and-printf.dir/src/io/scanf-and-printf.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/scanf-and-printf.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = scanf-and-printf
+  TARGET_PDB = scanf-and-printf.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sizeof
+
+
+#############################################
+# Order-only phony target for sizeof
+
+build cmake_object_order_depends_target_sizeof: phony || CMakeFiles/sizeof.dir
+
+build CMakeFiles/sizeof.dir/src/datatype/sizeof.c.o: C_COMPILER__sizeof_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/datatype/sizeof.c || cmake_object_order_depends_target_sizeof
+  DEP_FILE = CMakeFiles/sizeof.dir/src/datatype/sizeof.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/sizeof.dir
+  OBJECT_FILE_DIR = CMakeFiles/sizeof.dir/src/datatype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sizeof
+
+
+#############################################
+# Link the executable sizeof
+
+build sizeof: C_EXECUTABLE_LINKER__sizeof_Debug CMakeFiles/sizeof.dir/src/datatype/sizeof.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/sizeof.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = sizeof
+  TARGET_PDB = sizeof.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target type-cast
+
+
+#############################################
+# Order-only phony target for type-cast
+
+build cmake_object_order_depends_target_type-cast: phony || CMakeFiles/type-cast.dir
+
+build CMakeFiles/type-cast.dir/src/datatype/type-cast.c.o: C_COMPILER__type-cast_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/datatype/type-cast.c || cmake_object_order_depends_target_type-cast
+  DEP_FILE = CMakeFiles/type-cast.dir/src/datatype/type-cast.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/type-cast.dir
+  OBJECT_FILE_DIR = CMakeFiles/type-cast.dir/src/datatype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target type-cast
+
+
+#############################################
+# Link the executable type-cast
+
+build type-cast: C_EXECUTABLE_LINKER__type-cast_Debug CMakeFiles/type-cast.dir/src/datatype/type-cast.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/type-cast.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = type-cast
+  TARGET_PDB = type-cast.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target file-read-write
+
+
+#############################################
+# Order-only phony target for file-read-write
+
+build cmake_object_order_depends_target_file-read-write: phony || CMakeFiles/file-read-write.dir
+
+build CMakeFiles/file-read-write.dir/src/filereadwrite/file-read-write.c.o: C_COMPILER__file-read-write_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/filereadwrite/file-read-write.c || cmake_object_order_depends_target_file-read-write
+  DEP_FILE = CMakeFiles/file-read-write.dir/src/filereadwrite/file-read-write.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/file-read-write.dir
+  OBJECT_FILE_DIR = CMakeFiles/file-read-write.dir/src/filereadwrite
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target file-read-write
+
+
+#############################################
+# Link the executable file-read-write
+
+build file-read-write: C_EXECUTABLE_LINKER__file-read-write_Debug CMakeFiles/file-read-write.dir/src/filereadwrite/file-read-write.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/file-read-write.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = file-read-write
+  TARGET_PDB = file-read-write.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target parse-csv-file
+
+
+#############################################
+# Order-only phony target for parse-csv-file
+
+build cmake_object_order_depends_target_parse-csv-file: phony || CMakeFiles/parse-csv-file.dir
+
+build CMakeFiles/parse-csv-file.dir/src/filereadwrite/parse-csv-file.c.o: C_COMPILER__parse-csv-file_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/filereadwrite/parse-csv-file.c || cmake_object_order_depends_target_parse-csv-file
+  DEP_FILE = CMakeFiles/parse-csv-file.dir/src/filereadwrite/parse-csv-file.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/parse-csv-file.dir
+  OBJECT_FILE_DIR = CMakeFiles/parse-csv-file.dir/src/filereadwrite
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parse-csv-file
+
+
+#############################################
+# Link the executable parse-csv-file
+
+build parse-csv-file: C_EXECUTABLE_LINKER__parse-csv-file_Debug CMakeFiles/parse-csv-file.dir/src/filereadwrite/parse-csv-file.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/parse-csv-file.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = parse-csv-file
+  TARGET_PDB = parse-csv-file.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target file-write
+
+
+#############################################
+# Order-only phony target for file-write
+
+build cmake_object_order_depends_target_file-write: phony || CMakeFiles/file-write.dir
+
+build CMakeFiles/file-write.dir/src/filereadwrite/file-write.c.o: C_COMPILER__file-write_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/filereadwrite/file-write.c || cmake_object_order_depends_target_file-write
+  DEP_FILE = CMakeFiles/file-write.dir/src/filereadwrite/file-write.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/file-write.dir
+  OBJECT_FILE_DIR = CMakeFiles/file-write.dir/src/filereadwrite
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target file-write
+
+
+#############################################
+# Link the executable file-write
+
+build file-write: C_EXECUTABLE_LINKER__file-write_Debug CMakeFiles/file-write.dir/src/filereadwrite/file-write.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/file-write.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = file-write
+  TARGET_PDB = file-write.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target file-read
+
+
+#############################################
+# Order-only phony target for file-read
+
+build cmake_object_order_depends_target_file-read: phony || CMakeFiles/file-read.dir
+
+build CMakeFiles/file-read.dir/src/filereadwrite/file-read.c.o: C_COMPILER__file-read_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/filereadwrite/file-read.c || cmake_object_order_depends_target_file-read
+  DEP_FILE = CMakeFiles/file-read.dir/src/filereadwrite/file-read.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/file-read.dir
+  OBJECT_FILE_DIR = CMakeFiles/file-read.dir/src/filereadwrite
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target file-read
+
+
+#############################################
+# Link the executable file-read
+
+build file-read: C_EXECUTABLE_LINKER__file-read_Debug CMakeFiles/file-read.dir/src/filereadwrite/file-read.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/file-read.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = file-read
+  TARGET_PDB = file-read.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2d-array-addressing
+
+
+#############################################
+# Order-only phony target for 2d-array-addressing
+
+build cmake_object_order_depends_target_2d-array-addressing: phony || CMakeFiles/2d-array-addressing.dir
+
+build CMakeFiles/2d-array-addressing.dir/src/array/2d-array-addressing.c.o: C_COMPILER__2d-array-addressing_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/array/2d-array-addressing.c || cmake_object_order_depends_target_2d-array-addressing
+  DEP_FILE = CMakeFiles/2d-array-addressing.dir/src/array/2d-array-addressing.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/2d-array-addressing.dir
+  OBJECT_FILE_DIR = CMakeFiles/2d-array-addressing.dir/src/array
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2d-array-addressing
+
+
+#############################################
+# Link the executable 2d-array-addressing
+
+build 2d-array-addressing: C_EXECUTABLE_LINKER__2d-array-addressing_Debug CMakeFiles/2d-array-addressing.dir/src/array/2d-array-addressing.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/2d-array-addressing.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2d-array-addressing
+  TARGET_PDB = 2d-array-addressing.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target array
+
+
+#############################################
+# Order-only phony target for array
+
+build cmake_object_order_depends_target_array: phony || CMakeFiles/array.dir
+
+build CMakeFiles/array.dir/src/array/array.c.o: C_COMPILER__array_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/array/array.c || cmake_object_order_depends_target_array
+  DEP_FILE = CMakeFiles/array.dir/src/array/array.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/array.dir
+  OBJECT_FILE_DIR = CMakeFiles/array.dir/src/array
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target array
+
+
+#############################################
+# Link the executable array
+
+build array: C_EXECUTABLE_LINKER__array_Debug CMakeFiles/array.dir/src/array/array.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/array.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = array
+  TARGET_PDB = array.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2d-array-step-size
+
+
+#############################################
+# Order-only phony target for 2d-array-step-size
+
+build cmake_object_order_depends_target_2d-array-step-size: phony || CMakeFiles/2d-array-step-size.dir
+
+build CMakeFiles/2d-array-step-size.dir/src/array/2d-array-step-size.c.o: C_COMPILER__2d-array-step-size_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/array/2d-array-step-size.c || cmake_object_order_depends_target_2d-array-step-size
+  DEP_FILE = CMakeFiles/2d-array-step-size.dir/src/array/2d-array-step-size.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/2d-array-step-size.dir
+  OBJECT_FILE_DIR = CMakeFiles/2d-array-step-size.dir/src/array
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2d-array-step-size
+
+
+#############################################
+# Link the executable 2d-array-step-size
+
+build 2d-array-step-size: C_EXECUTABLE_LINKER__2d-array-step-size_Debug CMakeFiles/2d-array-step-size.dir/src/array/2d-array-step-size.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/2d-array-step-size.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2d-array-step-size
+  TARGET_PDB = 2d-array-step-size.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -477,7 +880,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test
+build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size
 
 # =============================================================================
 # Built-in targets
