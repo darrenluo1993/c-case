@@ -24,5 +24,15 @@
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/2d-array-addressing.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/array.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/2d-array-step-size.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/file-seek.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/predefine-macro.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/string-constant.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/mark-paste.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/defined.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/parameterized-macro.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/bit-operation.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/precedence-of-operator.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/assignment-operation.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/miscellaneous-operation.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/rebuild_cache.dir

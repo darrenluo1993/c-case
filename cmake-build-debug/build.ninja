@@ -846,6 +846,316 @@ build 2d-array-step-size: C_EXECUTABLE_LINKER__2d-array-step-size_Debug CMakeFil
   TARGET_FILE = 2d-array-step-size
   TARGET_PDB = 2d-array-step-size.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target file-seek
+
+
+#############################################
+# Order-only phony target for file-seek
+
+build cmake_object_order_depends_target_file-seek: phony || CMakeFiles/file-seek.dir
+
+build CMakeFiles/file-seek.dir/src/filereadwrite/file-seek.c.o: C_COMPILER__file-seek_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/filereadwrite/file-seek.c || cmake_object_order_depends_target_file-seek
+  DEP_FILE = CMakeFiles/file-seek.dir/src/filereadwrite/file-seek.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/file-seek.dir
+  OBJECT_FILE_DIR = CMakeFiles/file-seek.dir/src/filereadwrite
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target file-seek
+
+
+#############################################
+# Link the executable file-seek
+
+build file-seek: C_EXECUTABLE_LINKER__file-seek_Debug CMakeFiles/file-seek.dir/src/filereadwrite/file-seek.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/file-seek.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = file-seek
+  TARGET_PDB = file-seek.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target predefine-macro
+
+
+#############################################
+# Order-only phony target for predefine-macro
+
+build cmake_object_order_depends_target_predefine-macro: phony || CMakeFiles/predefine-macro.dir
+
+build CMakeFiles/predefine-macro.dir/src/preprocessor/predefine-macro.c.o: C_COMPILER__predefine-macro_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/preprocessor/predefine-macro.c || cmake_object_order_depends_target_predefine-macro
+  DEP_FILE = CMakeFiles/predefine-macro.dir/src/preprocessor/predefine-macro.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/predefine-macro.dir
+  OBJECT_FILE_DIR = CMakeFiles/predefine-macro.dir/src/preprocessor
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target predefine-macro
+
+
+#############################################
+# Link the executable predefine-macro
+
+build predefine-macro: C_EXECUTABLE_LINKER__predefine-macro_Debug CMakeFiles/predefine-macro.dir/src/preprocessor/predefine-macro.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/predefine-macro.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = predefine-macro
+  TARGET_PDB = predefine-macro.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string-constant
+
+
+#############################################
+# Order-only phony target for string-constant
+
+build cmake_object_order_depends_target_string-constant: phony || CMakeFiles/string-constant.dir
+
+build CMakeFiles/string-constant.dir/src/preprocessor/operator/string-constant.c.o: C_COMPILER__string-constant_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/preprocessor/operator/string-constant.c || cmake_object_order_depends_target_string-constant
+  DEP_FILE = CMakeFiles/string-constant.dir/src/preprocessor/operator/string-constant.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/string-constant.dir
+  OBJECT_FILE_DIR = CMakeFiles/string-constant.dir/src/preprocessor/operator
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string-constant
+
+
+#############################################
+# Link the executable string-constant
+
+build string-constant: C_EXECUTABLE_LINKER__string-constant_Debug CMakeFiles/string-constant.dir/src/preprocessor/operator/string-constant.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/string-constant.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = string-constant
+  TARGET_PDB = string-constant.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target mark-paste
+
+
+#############################################
+# Order-only phony target for mark-paste
+
+build cmake_object_order_depends_target_mark-paste: phony || CMakeFiles/mark-paste.dir
+
+build CMakeFiles/mark-paste.dir/src/preprocessor/operator/mark-paste.c.o: C_COMPILER__mark-paste_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/preprocessor/operator/mark-paste.c || cmake_object_order_depends_target_mark-paste
+  DEP_FILE = CMakeFiles/mark-paste.dir/src/preprocessor/operator/mark-paste.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/mark-paste.dir
+  OBJECT_FILE_DIR = CMakeFiles/mark-paste.dir/src/preprocessor/operator
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mark-paste
+
+
+#############################################
+# Link the executable mark-paste
+
+build mark-paste: C_EXECUTABLE_LINKER__mark-paste_Debug CMakeFiles/mark-paste.dir/src/preprocessor/operator/mark-paste.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/mark-paste.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = mark-paste
+  TARGET_PDB = mark-paste.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target defined
+
+
+#############################################
+# Order-only phony target for defined
+
+build cmake_object_order_depends_target_defined: phony || CMakeFiles/defined.dir
+
+build CMakeFiles/defined.dir/src/preprocessor/operator/defined.c.o: C_COMPILER__defined_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/preprocessor/operator/defined.c || cmake_object_order_depends_target_defined
+  DEP_FILE = CMakeFiles/defined.dir/src/preprocessor/operator/defined.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/defined.dir
+  OBJECT_FILE_DIR = CMakeFiles/defined.dir/src/preprocessor/operator
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target defined
+
+
+#############################################
+# Link the executable defined
+
+build defined: C_EXECUTABLE_LINKER__defined_Debug CMakeFiles/defined.dir/src/preprocessor/operator/defined.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/defined.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = defined
+  TARGET_PDB = defined.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target parameterized-macro
+
+
+#############################################
+# Order-only phony target for parameterized-macro
+
+build cmake_object_order_depends_target_parameterized-macro: phony || CMakeFiles/parameterized-macro.dir
+
+build CMakeFiles/parameterized-macro.dir/src/preprocessor/parameterized-macro.c.o: C_COMPILER__parameterized-macro_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/preprocessor/parameterized-macro.c || cmake_object_order_depends_target_parameterized-macro
+  DEP_FILE = CMakeFiles/parameterized-macro.dir/src/preprocessor/parameterized-macro.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/parameterized-macro.dir
+  OBJECT_FILE_DIR = CMakeFiles/parameterized-macro.dir/src/preprocessor
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parameterized-macro
+
+
+#############################################
+# Link the executable parameterized-macro
+
+build parameterized-macro: C_EXECUTABLE_LINKER__parameterized-macro_Debug CMakeFiles/parameterized-macro.dir/src/preprocessor/parameterized-macro.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/parameterized-macro.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = parameterized-macro
+  TARGET_PDB = parameterized-macro.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bit-operation
+
+
+#############################################
+# Order-only phony target for bit-operation
+
+build cmake_object_order_depends_target_bit-operation: phony || CMakeFiles/bit-operation.dir
+
+build CMakeFiles/bit-operation.dir/src/operator/bit-operation.c.o: C_COMPILER__bit-operation_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/operator/bit-operation.c || cmake_object_order_depends_target_bit-operation
+  DEP_FILE = CMakeFiles/bit-operation.dir/src/operator/bit-operation.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/bit-operation.dir
+  OBJECT_FILE_DIR = CMakeFiles/bit-operation.dir/src/operator
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bit-operation
+
+
+#############################################
+# Link the executable bit-operation
+
+build bit-operation: C_EXECUTABLE_LINKER__bit-operation_Debug CMakeFiles/bit-operation.dir/src/operator/bit-operation.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/bit-operation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bit-operation
+  TARGET_PDB = bit-operation.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target precedence-of-operator
+
+
+#############################################
+# Order-only phony target for precedence-of-operator
+
+build cmake_object_order_depends_target_precedence-of-operator: phony || CMakeFiles/precedence-of-operator.dir
+
+build CMakeFiles/precedence-of-operator.dir/src/operator/precedence-of-operator.c.o: C_COMPILER__precedence-of-operator_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/operator/precedence-of-operator.c || cmake_object_order_depends_target_precedence-of-operator
+  DEP_FILE = CMakeFiles/precedence-of-operator.dir/src/operator/precedence-of-operator.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/precedence-of-operator.dir
+  OBJECT_FILE_DIR = CMakeFiles/precedence-of-operator.dir/src/operator
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target precedence-of-operator
+
+
+#############################################
+# Link the executable precedence-of-operator
+
+build precedence-of-operator: C_EXECUTABLE_LINKER__precedence-of-operator_Debug CMakeFiles/precedence-of-operator.dir/src/operator/precedence-of-operator.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/precedence-of-operator.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = precedence-of-operator
+  TARGET_PDB = precedence-of-operator.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment-operation
+
+
+#############################################
+# Order-only phony target for assignment-operation
+
+build cmake_object_order_depends_target_assignment-operation: phony || CMakeFiles/assignment-operation.dir
+
+build CMakeFiles/assignment-operation.dir/src/operator/assignment-operation.c.o: C_COMPILER__assignment-operation_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/operator/assignment-operation.c || cmake_object_order_depends_target_assignment-operation
+  DEP_FILE = CMakeFiles/assignment-operation.dir/src/operator/assignment-operation.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/assignment-operation.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment-operation.dir/src/operator
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment-operation
+
+
+#############################################
+# Link the executable assignment-operation
+
+build assignment-operation: C_EXECUTABLE_LINKER__assignment-operation_Debug CMakeFiles/assignment-operation.dir/src/operator/assignment-operation.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/assignment-operation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = assignment-operation
+  TARGET_PDB = assignment-operation.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target miscellaneous-operation
+
+
+#############################################
+# Order-only phony target for miscellaneous-operation
+
+build cmake_object_order_depends_target_miscellaneous-operation: phony || CMakeFiles/miscellaneous-operation.dir
+
+build CMakeFiles/miscellaneous-operation.dir/src/operator/miscellaneous-operation.c.o: C_COMPILER__miscellaneous-operation_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/operator/miscellaneous-operation.c || cmake_object_order_depends_target_miscellaneous-operation
+  DEP_FILE = CMakeFiles/miscellaneous-operation.dir/src/operator/miscellaneous-operation.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/miscellaneous-operation.dir
+  OBJECT_FILE_DIR = CMakeFiles/miscellaneous-operation.dir/src/operator
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target miscellaneous-operation
+
+
+#############################################
+# Link the executable miscellaneous-operation
+
+build miscellaneous-operation: C_EXECUTABLE_LINKER__miscellaneous-operation_Debug CMakeFiles/miscellaneous-operation.dir/src/operator/miscellaneous-operation.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/miscellaneous-operation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = miscellaneous-operation
+  TARGET_PDB = miscellaneous-operation.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -880,7 +1190,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size
+build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation
 
 # =============================================================================
 # Built-in targets
