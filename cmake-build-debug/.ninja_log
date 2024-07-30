@@ -147,3 +147,15 @@
 56	81	1722317704568102408	miscellaneous-operation	80cc713aea4e40fd
 1	30	1722317767452104257	CMakeFiles/string-constant.dir/src/preprocessor/operator/string-constant.c.o	d2fd8df04e514ed3
 30	51	1722317767481104258	string-constant	8a6ed419877e4bac
+1	25	1722318663281130599	CMakeFiles/defined.dir/src/preprocessor/operator/defined.c.o	2f911cf8e29359b
+25	46	1722318663304130600	defined	dc3322d10688d673
+1	24	1722318771289133775	CMakeFiles/defined.dir/src/preprocessor/operator/defined.c.o	2f911cf8e29359b
+24	44	1722318771312133776	defined	dc3322d10688d673
+1	25	1722318835324135658	CMakeFiles/defined.dir/src/preprocessor/operator/defined.c.o	2f911cf8e29359b
+25	46	1722318835348135659	defined	dc3322d10688d673
+1	26	1722319155482145072	CMakeFiles/defined.dir/src/preprocessor/operator/defined.c.o	2f911cf8e29359b
+26	45	1722319155507145073	defined	dc3322d10688d673
+1	25	1722319183539145897	CMakeFiles/defined.dir/src/preprocessor/operator/defined.c.o	2f911cf8e29359b
+25	45	1722319183563145898	defined	dc3322d10688d673
+1	25	1722319605406158303	CMakeFiles/defined.dir/src/preprocessor/operator/defined.c.o	2f911cf8e29359b
+25	45	1722319605430158303	defined	dc3322d10688d673
