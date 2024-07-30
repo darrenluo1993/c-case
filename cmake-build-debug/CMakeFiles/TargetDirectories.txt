@@ -34,5 +34,8 @@
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/precedence-of-operator.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/assignment-operation.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/miscellaneous-operation.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/force-type-cast.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/integer-lifting.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/arithmetic-conversion.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/rebuild_cache.dir

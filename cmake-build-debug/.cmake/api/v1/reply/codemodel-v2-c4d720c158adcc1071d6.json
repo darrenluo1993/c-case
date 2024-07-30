@@ -50,7 +50,10 @@
 						32,
 						33,
 						34,
-						35
+						35,
+						36,
+						37,
+						38
 					]
 				}
 			],
@@ -100,7 +103,10 @@
 						32,
 						33,
 						34,
-						35
+						35,
+						36,
+						37,
+						38
 					]
 				}
 			],
@@ -139,6 +145,13 @@
 					"id" : "access-union-member-incorrect::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-access-union-member-incorrect-Debug-7152dddc32a0c12c7a7b.json",
 					"name" : "access-union-member-incorrect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arithmetic-conversion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arithmetic-conversion-Debug-9100fcd04fcb6601e726.json",
+					"name" : "arithmetic-conversion",
 					"projectIndex" : 0
 				},
 				{
@@ -227,6 +240,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "force-type-cast::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-force-type-cast-Debug-281bc870fa30a3e6ab64.json",
+					"name" : "force-type-cast",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "getchar-and-putchar::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-getchar-and-putchar-Debug-f543cee03ba04ba202a2.json",
 					"name" : "getchar-and-putchar",
@@ -237,6 +257,13 @@
 					"id" : "gets-and-puts::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-gets-and-puts-Debug-c283c129a77b8992f33a.json",
 					"name" : "gets-and-puts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "integer-lifting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-integer-lifting-Debug-178c2a519e4bed93de2d.json",
+					"name" : "integer-lifting",
 					"projectIndex" : 0
 				},
 				{

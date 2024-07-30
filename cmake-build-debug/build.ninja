@@ -1156,6 +1156,99 @@ build miscellaneous-operation: C_EXECUTABLE_LINKER__miscellaneous-operation_Debu
   TARGET_FILE = miscellaneous-operation
   TARGET_PDB = miscellaneous-operation.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target force-type-cast
+
+
+#############################################
+# Order-only phony target for force-type-cast
+
+build cmake_object_order_depends_target_force-type-cast: phony || CMakeFiles/force-type-cast.dir
+
+build CMakeFiles/force-type-cast.dir/src/datatype/force-type-cast.c.o: C_COMPILER__force-type-cast_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/datatype/force-type-cast.c || cmake_object_order_depends_target_force-type-cast
+  DEP_FILE = CMakeFiles/force-type-cast.dir/src/datatype/force-type-cast.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/force-type-cast.dir
+  OBJECT_FILE_DIR = CMakeFiles/force-type-cast.dir/src/datatype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target force-type-cast
+
+
+#############################################
+# Link the executable force-type-cast
+
+build force-type-cast: C_EXECUTABLE_LINKER__force-type-cast_Debug CMakeFiles/force-type-cast.dir/src/datatype/force-type-cast.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/force-type-cast.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = force-type-cast
+  TARGET_PDB = force-type-cast.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target integer-lifting
+
+
+#############################################
+# Order-only phony target for integer-lifting
+
+build cmake_object_order_depends_target_integer-lifting: phony || CMakeFiles/integer-lifting.dir
+
+build CMakeFiles/integer-lifting.dir/src/datatype/integer-lifting.c.o: C_COMPILER__integer-lifting_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/datatype/integer-lifting.c || cmake_object_order_depends_target_integer-lifting
+  DEP_FILE = CMakeFiles/integer-lifting.dir/src/datatype/integer-lifting.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/integer-lifting.dir
+  OBJECT_FILE_DIR = CMakeFiles/integer-lifting.dir/src/datatype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target integer-lifting
+
+
+#############################################
+# Link the executable integer-lifting
+
+build integer-lifting: C_EXECUTABLE_LINKER__integer-lifting_Debug CMakeFiles/integer-lifting.dir/src/datatype/integer-lifting.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/integer-lifting.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = integer-lifting
+  TARGET_PDB = integer-lifting.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arithmetic-conversion
+
+
+#############################################
+# Order-only phony target for arithmetic-conversion
+
+build cmake_object_order_depends_target_arithmetic-conversion: phony || CMakeFiles/arithmetic-conversion.dir
+
+build CMakeFiles/arithmetic-conversion.dir/src/datatype/arithmetic-conversion.c.o: C_COMPILER__arithmetic-conversion_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/datatype/arithmetic-conversion.c || cmake_object_order_depends_target_arithmetic-conversion
+  DEP_FILE = CMakeFiles/arithmetic-conversion.dir/src/datatype/arithmetic-conversion.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/arithmetic-conversion.dir
+  OBJECT_FILE_DIR = CMakeFiles/arithmetic-conversion.dir/src/datatype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arithmetic-conversion
+
+
+#############################################
+# Link the executable arithmetic-conversion
+
+build arithmetic-conversion: C_EXECUTABLE_LINKER__arithmetic-conversion_Debug CMakeFiles/arithmetic-conversion.dir/src/datatype/arithmetic-conversion.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/arithmetic-conversion.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = arithmetic-conversion
+  TARGET_PDB = arithmetic-conversion.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1190,7 +1283,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation
+build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion
 
 # =============================================================================
 # Built-in targets
