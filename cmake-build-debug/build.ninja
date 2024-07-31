@@ -1466,6 +1466,327 @@ build signed-to-unsigned: C_EXECUTABLE_LINKER__signed-to-unsigned_Debug CMakeFil
   TARGET_FILE = signed-to-unsigned
   TARGET_PDB = signed-to-unsigned.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target errno-perror-strerror
+
+
+#############################################
+# Order-only phony target for errno-perror-strerror
+
+build cmake_object_order_depends_target_errno-perror-strerror: phony || CMakeFiles/errno-perror-strerror.dir
+
+build CMakeFiles/errno-perror-strerror.dir/src/errorhandling/errno-perror-strerror.c.o: C_COMPILER__errno-perror-strerror_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/errorhandling/errno-perror-strerror.c || cmake_object_order_depends_target_errno-perror-strerror
+  DEP_FILE = CMakeFiles/errno-perror-strerror.dir/src/errorhandling/errno-perror-strerror.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/errno-perror-strerror.dir
+  OBJECT_FILE_DIR = CMakeFiles/errno-perror-strerror.dir/src/errorhandling
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target errno-perror-strerror
+
+
+#############################################
+# Link the executable errno-perror-strerror
+
+build errno-perror-strerror: C_EXECUTABLE_LINKER__errno-perror-strerror_Debug CMakeFiles/errno-perror-strerror.dir/src/errorhandling/errno-perror-strerror.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/errno-perror-strerror.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = errno-perror-strerror
+  TARGET_PDB = errno-perror-strerror.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target extern-constant
+
+
+#############################################
+# Order-only phony target for extern-constant
+
+build cmake_object_order_depends_target_extern-constant: phony || CMakeFiles/extern-constant.dir
+
+build CMakeFiles/extern-constant.dir/src/extern/constant/file2.c.o: C_COMPILER__extern-constant_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/constant/file2.c || cmake_object_order_depends_target_extern-constant
+  DEP_FILE = CMakeFiles/extern-constant.dir/src/extern/constant/file2.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/extern-constant.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern-constant.dir/src/extern/constant
+
+build CMakeFiles/extern-constant.dir/src/extern/constant/file3.c.o: C_COMPILER__extern-constant_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/constant/file3.c || cmake_object_order_depends_target_extern-constant
+  DEP_FILE = CMakeFiles/extern-constant.dir/src/extern/constant/file3.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/extern-constant.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern-constant.dir/src/extern/constant
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extern-constant
+
+
+#############################################
+# Link the executable extern-constant
+
+build extern-constant: C_EXECUTABLE_LINKER__extern-constant_Debug CMakeFiles/extern-constant.dir/src/extern/constant/file2.c.o CMakeFiles/extern-constant.dir/src/extern/constant/file3.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/extern-constant.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = extern-constant
+  TARGET_PDB = extern-constant.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target extern-func
+
+
+#############################################
+# Order-only phony target for extern-func
+
+build cmake_object_order_depends_target_extern-func: phony || CMakeFiles/extern-func.dir
+
+build CMakeFiles/extern-func.dir/src/extern/func/file1.c.o: C_COMPILER__extern-func_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/func/file1.c || cmake_object_order_depends_target_extern-func
+  DEP_FILE = CMakeFiles/extern-func.dir/src/extern/func/file1.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/extern-func.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern-func.dir/src/extern/func
+
+build CMakeFiles/extern-func.dir/src/extern/func/file2.c.o: C_COMPILER__extern-func_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/func/file2.c || cmake_object_order_depends_target_extern-func
+  DEP_FILE = CMakeFiles/extern-func.dir/src/extern/func/file2.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/extern-func.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern-func.dir/src/extern/func
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extern-func
+
+
+#############################################
+# Link the executable extern-func
+
+build extern-func: C_EXECUTABLE_LINKER__extern-func_Debug CMakeFiles/extern-func.dir/src/extern/func/file1.c.o CMakeFiles/extern-func.dir/src/extern/func/file2.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/extern-func.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = extern-func
+  TARGET_PDB = extern-func.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target extern-func-1
+
+
+#############################################
+# Order-only phony target for extern-func-1
+
+build cmake_object_order_depends_target_extern-func-1: phony || CMakeFiles/extern-func-1.dir
+
+build CMakeFiles/extern-func-1.dir/src/extern/func-1/file1.c.o: C_COMPILER__extern-func-1_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/func-1/file1.c || cmake_object_order_depends_target_extern-func-1
+  DEP_FILE = CMakeFiles/extern-func-1.dir/src/extern/func-1/file1.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/extern-func-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern-func-1.dir/src/extern/func-1
+
+build CMakeFiles/extern-func-1.dir/src/extern/func-1/file2.c.o: C_COMPILER__extern-func-1_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/func-1/file2.c || cmake_object_order_depends_target_extern-func-1
+  DEP_FILE = CMakeFiles/extern-func-1.dir/src/extern/func-1/file2.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/extern-func-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern-func-1.dir/src/extern/func-1
+
+build CMakeFiles/extern-func-1.dir/src/extern/func-1/file3.c.o: C_COMPILER__extern-func-1_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/func-1/file3.c || cmake_object_order_depends_target_extern-func-1
+  DEP_FILE = CMakeFiles/extern-func-1.dir/src/extern/func-1/file3.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/extern-func-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern-func-1.dir/src/extern/func-1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extern-func-1
+
+
+#############################################
+# Link the executable extern-func-1
+
+build extern-func-1: C_EXECUTABLE_LINKER__extern-func-1_Debug CMakeFiles/extern-func-1.dir/src/extern/func-1/file1.c.o CMakeFiles/extern-func-1.dir/src/extern/func-1/file2.c.o CMakeFiles/extern-func-1.dir/src/extern/func-1/file3.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/extern-func-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = extern-func-1
+  TARGET_PDB = extern-func-1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target extern-var-func
+
+
+#############################################
+# Order-only phony target for extern-var-func
+
+build cmake_object_order_depends_target_extern-var-func: phony || CMakeFiles/extern-var-func.dir
+
+build CMakeFiles/extern-var-func.dir/src/extern/var-func/file1.c.o: C_COMPILER__extern-var-func_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/var-func/file1.c || cmake_object_order_depends_target_extern-var-func
+  DEP_FILE = CMakeFiles/extern-var-func.dir/src/extern/var-func/file1.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/extern-var-func.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern-var-func.dir/src/extern/var-func
+
+build CMakeFiles/extern-var-func.dir/src/extern/var-func/file2.c.o: C_COMPILER__extern-var-func_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/var-func/file2.c || cmake_object_order_depends_target_extern-var-func
+  DEP_FILE = CMakeFiles/extern-var-func.dir/src/extern/var-func/file2.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/extern-var-func.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern-var-func.dir/src/extern/var-func
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extern-var-func
+
+
+#############################################
+# Link the executable extern-var-func
+
+build extern-var-func: C_EXECUTABLE_LINKER__extern-var-func_Debug CMakeFiles/extern-var-func.dir/src/extern/var-func/file1.c.o CMakeFiles/extern-var-func.dir/src/extern/var-func/file2.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/extern-var-func.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = extern-var-func
+  TARGET_PDB = extern-var-func.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target extern-var-func-1
+
+
+#############################################
+# Order-only phony target for extern-var-func-1
+
+build cmake_object_order_depends_target_extern-var-func-1: phony || CMakeFiles/extern-var-func-1.dir
+
+build CMakeFiles/extern-var-func-1.dir/src/extern/var-func-1/file1.c.o: C_COMPILER__extern-var-func-1_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/var-func-1/file1.c || cmake_object_order_depends_target_extern-var-func-1
+  DEP_FILE = CMakeFiles/extern-var-func-1.dir/src/extern/var-func-1/file1.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/extern-var-func-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern-var-func-1.dir/src/extern/var-func-1
+
+build CMakeFiles/extern-var-func-1.dir/src/extern/var-func-1/file3.c.o: C_COMPILER__extern-var-func-1_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/var-func-1/file3.c || cmake_object_order_depends_target_extern-var-func-1
+  DEP_FILE = CMakeFiles/extern-var-func-1.dir/src/extern/var-func-1/file3.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/extern-var-func-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern-var-func-1.dir/src/extern/var-func-1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extern-var-func-1
+
+
+#############################################
+# Link the executable extern-var-func-1
+
+build extern-var-func-1: C_EXECUTABLE_LINKER__extern-var-func-1_Debug CMakeFiles/extern-var-func-1.dir/src/extern/var-func-1/file1.c.o CMakeFiles/extern-var-func-1.dir/src/extern/var-func-1/file3.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/extern-var-func-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = extern-var-func-1
+  TARGET_PDB = extern-var-func-1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target c-extern
+
+
+#############################################
+# Order-only phony target for c-extern
+
+build cmake_object_order_depends_target_c-extern: phony || CMakeFiles/c-extern.dir
+
+build CMakeFiles/c-extern.dir/src/extern/c-extern.c.o: C_COMPILER__c-extern_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/c-extern.c || cmake_object_order_depends_target_c-extern
+  DEP_FILE = CMakeFiles/c-extern.dir/src/extern/c-extern.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/c-extern.dir
+  OBJECT_FILE_DIR = CMakeFiles/c-extern.dir/src/extern
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target c-extern
+
+
+#############################################
+# Link the executable c-extern
+
+build c-extern: C_EXECUTABLE_LINKER__c-extern_Debug CMakeFiles/c-extern.dir/src/extern/c-extern.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/c-extern.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = c-extern
+  TARGET_PDB = c-extern.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target extern-var-func-2
+
+
+#############################################
+# Order-only phony target for extern-var-func-2
+
+build cmake_object_order_depends_target_extern-var-func-2: phony || CMakeFiles/extern-var-func-2.dir
+
+build CMakeFiles/extern-var-func-2.dir/src/extern/var-func-2/file1.c.o: C_COMPILER__extern-var-func-2_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/var-func-2/file1.c || cmake_object_order_depends_target_extern-var-func-2
+  DEP_FILE = CMakeFiles/extern-var-func-2.dir/src/extern/var-func-2/file1.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/extern-var-func-2.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern-var-func-2.dir/src/extern/var-func-2
+
+build CMakeFiles/extern-var-func-2.dir/src/extern/var-func-2/file2.c.o: C_COMPILER__extern-var-func-2_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/extern/var-func-2/file2.c || cmake_object_order_depends_target_extern-var-func-2
+  DEP_FILE = CMakeFiles/extern-var-func-2.dir/src/extern/var-func-2/file2.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/extern-var-func-2.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern-var-func-2.dir/src/extern/var-func-2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extern-var-func-2
+
+
+#############################################
+# Link the executable extern-var-func-2
+
+build extern-var-func-2: C_EXECUTABLE_LINKER__extern-var-func-2_Debug CMakeFiles/extern-var-func-2.dir/src/extern/var-func-2/file1.c.o CMakeFiles/extern-var-func-2.dir/src/extern/var-func-2/file2.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/extern-var-func-2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = extern-var-func-2
+  TARGET_PDB = extern-var-func-2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target by-zero-error
+
+
+#############################################
+# Order-only phony target for by-zero-error
+
+build cmake_object_order_depends_target_by-zero-error: phony || CMakeFiles/by-zero-error.dir
+
+build CMakeFiles/by-zero-error.dir/src/errorhandling/by-zero-error.c.o: C_COMPILER__by-zero-error_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/errorhandling/by-zero-error.c || cmake_object_order_depends_target_by-zero-error
+  DEP_FILE = CMakeFiles/by-zero-error.dir/src/errorhandling/by-zero-error.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/by-zero-error.dir
+  OBJECT_FILE_DIR = CMakeFiles/by-zero-error.dir/src/errorhandling
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target by-zero-error
+
+
+#############################################
+# Link the executable by-zero-error
+
+build by-zero-error: C_EXECUTABLE_LINKER__by-zero-error_Debug CMakeFiles/by-zero-error.dir/src/errorhandling/by-zero-error.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/by-zero-error.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = by-zero-error
+  TARGET_PDB = by-zero-error.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1500,7 +1821,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned
+build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned errno-perror-strerror extern-constant extern-func extern-func-1 extern-var-func extern-var-func-1 c-extern extern-var-func-2 by-zero-error
 
 # =============================================================================
 # Built-in targets

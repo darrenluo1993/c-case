@@ -60,7 +60,16 @@
 						42,
 						43,
 						44,
-						45
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54
 					]
 				}
 			],
@@ -120,7 +129,16 @@
 						42,
 						43,
 						44,
-						45
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54
 					]
 				}
 			],
@@ -198,6 +216,20 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "by-zero-error::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-by-zero-error-Debug-105770cdb5395fdbdbea.json",
+					"name" : "by-zero-error",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "c-extern::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c-extern-Debug-127edd9995cae37b5f8f.json",
+					"name" : "c-extern",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "calculate-struct-size::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-calculate-struct-size-Debug-26ec517f44a400d57422.json",
 					"name" : "calculate-struct-size",
@@ -236,6 +268,55 @@
 					"id" : "defined::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-defined-Debug-721833ed0a55be0a35e4.json",
 					"name" : "defined",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "errno-perror-strerror::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-errno-perror-strerror-Debug-79b50c657cb1286edd79.json",
+					"name" : "errno-perror-strerror",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extern-constant::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extern-constant-Debug-20fc75bbc23ae687094c.json",
+					"name" : "extern-constant",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extern-func::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extern-func-Debug-ef7a95e5a7e530ceda2e.json",
+					"name" : "extern-func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extern-func-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extern-func-1-Debug-306be1caa4aa57ec45fc.json",
+					"name" : "extern-func-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extern-var-func::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extern-var-func-Debug-9e571cb2935ba3a5bdd4.json",
+					"name" : "extern-var-func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extern-var-func-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extern-var-func-1-Debug-367a51b03d912dd6e88b.json",
+					"name" : "extern-var-func-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extern-var-func-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extern-var-func-2-Debug-24856a037c9475c79434.json",
+					"name" : "extern-var-func-2",
 					"projectIndex" : 0
 				},
 				{

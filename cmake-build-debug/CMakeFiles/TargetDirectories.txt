@@ -44,5 +44,14 @@
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/long-type-to-short-type.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/unsigned-to-signed.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/signed-to-unsigned.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/errno-perror-strerror.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/extern-constant.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/extern-func.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/extern-func-1.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/extern-var-func.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/extern-var-func-1.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/c-extern.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/extern-var-func-2.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/by-zero-error.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/rebuild_cache.dir
