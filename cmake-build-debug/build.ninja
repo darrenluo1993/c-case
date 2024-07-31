@@ -1249,6 +1249,223 @@ build arithmetic-conversion: C_EXECUTABLE_LINKER__arithmetic-conversion_Debug CM
   TARGET_FILE = arithmetic-conversion
   TARGET_PDB = arithmetic-conversion.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target char-short-convert-to-int
+
+
+#############################################
+# Order-only phony target for char-short-convert-to-int
+
+build cmake_object_order_depends_target_char-short-convert-to-int: phony || CMakeFiles/char-short-convert-to-int.dir
+
+build CMakeFiles/char-short-convert-to-int.dir/src/datatype/char-short-convert-to-int.c.o: C_COMPILER__char-short-convert-to-int_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/datatype/char-short-convert-to-int.c || cmake_object_order_depends_target_char-short-convert-to-int
+  DEP_FILE = CMakeFiles/char-short-convert-to-int.dir/src/datatype/char-short-convert-to-int.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/char-short-convert-to-int.dir
+  OBJECT_FILE_DIR = CMakeFiles/char-short-convert-to-int.dir/src/datatype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target char-short-convert-to-int
+
+
+#############################################
+# Link the executable char-short-convert-to-int
+
+build char-short-convert-to-int: C_EXECUTABLE_LINKER__char-short-convert-to-int_Debug CMakeFiles/char-short-convert-to-int.dir/src/datatype/char-short-convert-to-int.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/char-short-convert-to-int.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = char-short-convert-to-int
+  TARGET_PDB = char-short-convert-to-int.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target decimals-to-int
+
+
+#############################################
+# Order-only phony target for decimals-to-int
+
+build cmake_object_order_depends_target_decimals-to-int: phony || CMakeFiles/decimals-to-int.dir
+
+build CMakeFiles/decimals-to-int.dir/src/datatype/decimals-to-int.c.o: C_COMPILER__decimals-to-int_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/datatype/decimals-to-int.c || cmake_object_order_depends_target_decimals-to-int
+  DEP_FILE = CMakeFiles/decimals-to-int.dir/src/datatype/decimals-to-int.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/decimals-to-int.dir
+  OBJECT_FILE_DIR = CMakeFiles/decimals-to-int.dir/src/datatype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target decimals-to-int
+
+
+#############################################
+# Link the executable decimals-to-int
+
+build decimals-to-int: C_EXECUTABLE_LINKER__decimals-to-int_Debug CMakeFiles/decimals-to-int.dir/src/datatype/decimals-to-int.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/decimals-to-int.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = decimals-to-int
+  TARGET_PDB = decimals-to-int.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target int-to-decimals
+
+
+#############################################
+# Order-only phony target for int-to-decimals
+
+build cmake_object_order_depends_target_int-to-decimals: phony || CMakeFiles/int-to-decimals.dir
+
+build CMakeFiles/int-to-decimals.dir/src/datatype/int-to-decimals.c.o: C_COMPILER__int-to-decimals_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/datatype/int-to-decimals.c || cmake_object_order_depends_target_int-to-decimals
+  DEP_FILE = CMakeFiles/int-to-decimals.dir/src/datatype/int-to-decimals.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/int-to-decimals.dir
+  OBJECT_FILE_DIR = CMakeFiles/int-to-decimals.dir/src/datatype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target int-to-decimals
+
+
+#############################################
+# Link the executable int-to-decimals
+
+build int-to-decimals: C_EXECUTABLE_LINKER__int-to-decimals_Debug CMakeFiles/int-to-decimals.dir/src/datatype/int-to-decimals.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/int-to-decimals.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = int-to-decimals
+  TARGET_PDB = int-to-decimals.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target short-type-to-long-type
+
+
+#############################################
+# Order-only phony target for short-type-to-long-type
+
+build cmake_object_order_depends_target_short-type-to-long-type: phony || CMakeFiles/short-type-to-long-type.dir
+
+build CMakeFiles/short-type-to-long-type.dir/src/datatype/short-type-to-long-type.c.o: C_COMPILER__short-type-to-long-type_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/datatype/short-type-to-long-type.c || cmake_object_order_depends_target_short-type-to-long-type
+  DEP_FILE = CMakeFiles/short-type-to-long-type.dir/src/datatype/short-type-to-long-type.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/short-type-to-long-type.dir
+  OBJECT_FILE_DIR = CMakeFiles/short-type-to-long-type.dir/src/datatype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target short-type-to-long-type
+
+
+#############################################
+# Link the executable short-type-to-long-type
+
+build short-type-to-long-type: C_EXECUTABLE_LINKER__short-type-to-long-type_Debug CMakeFiles/short-type-to-long-type.dir/src/datatype/short-type-to-long-type.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/short-type-to-long-type.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = short-type-to-long-type
+  TARGET_PDB = short-type-to-long-type.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target long-type-to-short-type
+
+
+#############################################
+# Order-only phony target for long-type-to-short-type
+
+build cmake_object_order_depends_target_long-type-to-short-type: phony || CMakeFiles/long-type-to-short-type.dir
+
+build CMakeFiles/long-type-to-short-type.dir/src/datatype/long-type-to-short-type.c.o: C_COMPILER__long-type-to-short-type_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/datatype/long-type-to-short-type.c || cmake_object_order_depends_target_long-type-to-short-type
+  DEP_FILE = CMakeFiles/long-type-to-short-type.dir/src/datatype/long-type-to-short-type.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/long-type-to-short-type.dir
+  OBJECT_FILE_DIR = CMakeFiles/long-type-to-short-type.dir/src/datatype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target long-type-to-short-type
+
+
+#############################################
+# Link the executable long-type-to-short-type
+
+build long-type-to-short-type: C_EXECUTABLE_LINKER__long-type-to-short-type_Debug CMakeFiles/long-type-to-short-type.dir/src/datatype/long-type-to-short-type.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/long-type-to-short-type.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = long-type-to-short-type
+  TARGET_PDB = long-type-to-short-type.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target unsigned-to-signed
+
+
+#############################################
+# Order-only phony target for unsigned-to-signed
+
+build cmake_object_order_depends_target_unsigned-to-signed: phony || CMakeFiles/unsigned-to-signed.dir
+
+build CMakeFiles/unsigned-to-signed.dir/src/datatype/unsigned-to-signed.c.o: C_COMPILER__unsigned-to-signed_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/datatype/unsigned-to-signed.c || cmake_object_order_depends_target_unsigned-to-signed
+  DEP_FILE = CMakeFiles/unsigned-to-signed.dir/src/datatype/unsigned-to-signed.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/unsigned-to-signed.dir
+  OBJECT_FILE_DIR = CMakeFiles/unsigned-to-signed.dir/src/datatype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target unsigned-to-signed
+
+
+#############################################
+# Link the executable unsigned-to-signed
+
+build unsigned-to-signed: C_EXECUTABLE_LINKER__unsigned-to-signed_Debug CMakeFiles/unsigned-to-signed.dir/src/datatype/unsigned-to-signed.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/unsigned-to-signed.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = unsigned-to-signed
+  TARGET_PDB = unsigned-to-signed.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target signed-to-unsigned
+
+
+#############################################
+# Order-only phony target for signed-to-unsigned
+
+build cmake_object_order_depends_target_signed-to-unsigned: phony || CMakeFiles/signed-to-unsigned.dir
+
+build CMakeFiles/signed-to-unsigned.dir/src/datatype/signed-to-unsigned.c.o: C_COMPILER__signed-to-unsigned_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/datatype/signed-to-unsigned.c || cmake_object_order_depends_target_signed-to-unsigned
+  DEP_FILE = CMakeFiles/signed-to-unsigned.dir/src/datatype/signed-to-unsigned.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/signed-to-unsigned.dir
+  OBJECT_FILE_DIR = CMakeFiles/signed-to-unsigned.dir/src/datatype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target signed-to-unsigned
+
+
+#############################################
+# Link the executable signed-to-unsigned
+
+build signed-to-unsigned: C_EXECUTABLE_LINKER__signed-to-unsigned_Debug CMakeFiles/signed-to-unsigned.dir/src/datatype/signed-to-unsigned.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/signed-to-unsigned.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = signed-to-unsigned
+  TARGET_PDB = signed-to-unsigned.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1283,7 +1500,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion
+build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned
 
 # =============================================================================
 # Built-in targets

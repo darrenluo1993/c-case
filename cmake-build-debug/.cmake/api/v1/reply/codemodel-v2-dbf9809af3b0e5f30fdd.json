@@ -53,7 +53,14 @@
 						35,
 						36,
 						37,
-						38
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45
 					]
 				}
 			],
@@ -106,7 +113,14 @@
 						35,
 						36,
 						37,
-						38
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45
 					]
 				}
 			],
@@ -191,6 +205,20 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "char-short-convert-to-int::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-char-short-convert-to-int-Debug-b3f066804ff69c0cb442.json",
+					"name" : "char-short-convert-to-int",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "decimals-to-int::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-decimals-to-int-Debug-66b21da02d9aa558549c.json",
+					"name" : "decimals-to-int",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "declare-use-bit-field::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-declare-use-bit-field-Debug-82b18a71f2c326343213.json",
 					"name" : "declare-use-bit-field",
@@ -261,9 +289,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "int-to-decimals::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-int-to-decimals-Debug-5a5a8718b1bb101735f8.json",
+					"name" : "int-to-decimals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "integer-lifting::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-integer-lifting-Debug-178c2a519e4bed93de2d.json",
 					"name" : "integer-lifting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "long-type-to-short-type::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-long-type-to-short-type-Debug-e19006dbe75eb4a765dd.json",
+					"name" : "long-type-to-short-type",
 					"projectIndex" : 0
 				},
 				{
@@ -313,6 +355,20 @@
 					"id" : "scanf-and-printf::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-scanf-and-printf-Debug-65959e802ff47f53d4f3.json",
 					"name" : "scanf-and-printf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "short-type-to-long-type::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-short-type-to-long-type-Debug-fc831c26b5df5471e5e8.json",
+					"name" : "short-type-to-long-type",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "signed-to-unsigned::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-signed-to-unsigned-Debug-e9b9e432e6682c0589c2.json",
+					"name" : "signed-to-unsigned",
 					"projectIndex" : 0
 				},
 				{
@@ -376,6 +432,13 @@
 					"id" : "union-declare-define::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-union-declare-define-Debug-0c4f6915183a7c12224e.json",
 					"name" : "union-declare-define",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unsigned-to-signed::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unsigned-to-signed-Debug-cb126962614ade29e721.json",
+					"name" : "unsigned-to-signed",
 					"projectIndex" : 0
 				},
 				{

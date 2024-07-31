@@ -37,5 +37,12 @@
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/force-type-cast.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/integer-lifting.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/arithmetic-conversion.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/char-short-convert-to-int.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/decimals-to-int.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/int-to-decimals.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/short-type-to-long-type.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/long-type-to-short-type.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/unsigned-to-signed.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/signed-to-unsigned.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/rebuild_cache.dir
