@@ -1849,6 +1849,37 @@ build fibonacci: C_EXECUTABLE_LINKER__fibonacci_Debug CMakeFiles/fibonacci.dir/s
   TARGET_FILE = fibonacci
   TARGET_PDB = fibonacci.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target variable-parameter
+
+
+#############################################
+# Order-only phony target for variable-parameter
+
+build cmake_object_order_depends_target_variable-parameter: phony || CMakeFiles/variable-parameter.dir
+
+build CMakeFiles/variable-parameter.dir/src/variableparameter/variable-parameter.c.o: C_COMPILER__variable-parameter_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/variableparameter/variable-parameter.c || cmake_object_order_depends_target_variable-parameter
+  DEP_FILE = CMakeFiles/variable-parameter.dir/src/variableparameter/variable-parameter.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/variable-parameter.dir
+  OBJECT_FILE_DIR = CMakeFiles/variable-parameter.dir/src/variableparameter
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target variable-parameter
+
+
+#############################################
+# Link the executable variable-parameter
+
+build variable-parameter: C_EXECUTABLE_LINKER__variable-parameter_Debug CMakeFiles/variable-parameter.dir/src/variableparameter/variable-parameter.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/variable-parameter.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = variable-parameter
+  TARGET_PDB = variable-parameter.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1883,7 +1914,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned errno-perror-strerror extern-constant extern-func extern-func-1 extern-var-func extern-var-func-1 c-extern extern-var-func-2 by-zero-error factorial fibonacci
+build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned errno-perror-strerror extern-constant extern-func extern-func-1 extern-var-func extern-var-func-1 c-extern extern-var-func-2 by-zero-error factorial fibonacci variable-parameter
 
 # =============================================================================
 # Built-in targets

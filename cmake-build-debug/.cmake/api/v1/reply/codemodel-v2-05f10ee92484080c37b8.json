@@ -71,7 +71,8 @@
 						53,
 						54,
 						55,
-						56
+						56,
+						57
 					]
 				}
 			],
@@ -142,7 +143,8 @@
 						53,
 						54,
 						55,
-						56
+						56,
+						57
 					]
 				}
 			],
@@ -545,6 +547,13 @@
 					"id" : "use-bit-field-by-pointer::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-use-bit-field-by-pointer-Debug-8b3eac3ee46de52d2bcd.json",
 					"name" : "use-bit-field-by-pointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "variable-parameter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-variable-parameter-Debug-44ee82ca44834cfae9d1.json",
+					"name" : "variable-parameter",
 					"projectIndex" : 0
 				}
 			]

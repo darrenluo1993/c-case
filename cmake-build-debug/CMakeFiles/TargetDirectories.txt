@@ -55,5 +55,6 @@
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/by-zero-error.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/factorial.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/fibonacci.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/variable-parameter.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/rebuild_cache.dir
