@@ -65,3 +65,5 @@ add_executable(c-extern src/extern/c-extern.c)
 add_executable(extern-var-func-2 src/extern/var-func-2/file1.c
         src/extern/var-func-2/file2.c)
 add_executable(by-zero-error src/errorhandling/by-zero-error.c)
+add_executable(factorial src/recursion/factorial.c)
+add_executable(fibonacci src/recursion/fibonacci.c)

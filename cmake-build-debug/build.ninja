@@ -1787,6 +1787,68 @@ build by-zero-error: C_EXECUTABLE_LINKER__by-zero-error_Debug CMakeFiles/by-zero
   TARGET_FILE = by-zero-error
   TARGET_PDB = by-zero-error.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target factorial
+
+
+#############################################
+# Order-only phony target for factorial
+
+build cmake_object_order_depends_target_factorial: phony || CMakeFiles/factorial.dir
+
+build CMakeFiles/factorial.dir/src/recursion/factorial.c.o: C_COMPILER__factorial_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/recursion/factorial.c || cmake_object_order_depends_target_factorial
+  DEP_FILE = CMakeFiles/factorial.dir/src/recursion/factorial.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/factorial.dir
+  OBJECT_FILE_DIR = CMakeFiles/factorial.dir/src/recursion
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target factorial
+
+
+#############################################
+# Link the executable factorial
+
+build factorial: C_EXECUTABLE_LINKER__factorial_Debug CMakeFiles/factorial.dir/src/recursion/factorial.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/factorial.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = factorial
+  TARGET_PDB = factorial.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fibonacci
+
+
+#############################################
+# Order-only phony target for fibonacci
+
+build cmake_object_order_depends_target_fibonacci: phony || CMakeFiles/fibonacci.dir
+
+build CMakeFiles/fibonacci.dir/src/recursion/fibonacci.c.o: C_COMPILER__fibonacci_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/recursion/fibonacci.c || cmake_object_order_depends_target_fibonacci
+  DEP_FILE = CMakeFiles/fibonacci.dir/src/recursion/fibonacci.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/fibonacci.dir
+  OBJECT_FILE_DIR = CMakeFiles/fibonacci.dir/src/recursion
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fibonacci
+
+
+#############################################
+# Link the executable fibonacci
+
+build fibonacci: C_EXECUTABLE_LINKER__fibonacci_Debug CMakeFiles/fibonacci.dir/src/recursion/fibonacci.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/fibonacci.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = fibonacci
+  TARGET_PDB = fibonacci.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1821,7 +1883,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned errno-perror-strerror extern-constant extern-func extern-func-1 extern-var-func extern-var-func-1 c-extern extern-var-func-2 by-zero-error
+build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned errno-perror-strerror extern-constant extern-func extern-func-1 extern-var-func extern-var-func-1 c-extern extern-var-func-2 by-zero-error factorial fibonacci
 
 # =============================================================================
 # Built-in targets

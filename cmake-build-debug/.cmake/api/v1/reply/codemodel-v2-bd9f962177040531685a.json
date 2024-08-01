@@ -69,7 +69,9 @@
 						51,
 						52,
 						53,
-						54
+						54,
+						55,
+						56
 					]
 				}
 			],
@@ -138,7 +140,9 @@
 						51,
 						52,
 						53,
-						54
+						54,
+						55,
+						56
 					]
 				}
 			],
@@ -317,6 +321,20 @@
 					"id" : "extern-var-func-2::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-extern-var-func-2-Debug-24856a037c9475c79434.json",
 					"name" : "extern-var-func-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "factorial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-factorial-Debug-300b6c185ff2c74b9cdd.json",
+					"name" : "factorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fibonacci::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fibonacci-Debug-a5b3b8b04dbf28ac4a32.json",
+					"name" : "fibonacci",
 					"projectIndex" : 0
 				},
 				{
