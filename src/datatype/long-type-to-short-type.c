@@ -7,7 +7,13 @@ int main() {
     long long int l = 223372036854775807;
     // 进行赋值：
     int i = (int) l;
-    printf("%d", i);
+    printf("%d\n", i);
+
+    int v = 65535; // 1111 1111 1111 1111
+    char c = v; // -1
+    char d = v >> 8; // -1
+    printf("%d\n", c);
+    printf("%d\n", d);
 }
 
 // 它们在内存以2进制格式分别存储为：

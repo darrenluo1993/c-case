@@ -1880,6 +1880,99 @@ build variable-parameter: C_EXECUTABLE_LINKER__variable-parameter_Debug CMakeFil
   TARGET_FILE = variable-parameter
   TARGET_PDB = variable-parameter.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target variable-parameter-1
+
+
+#############################################
+# Order-only phony target for variable-parameter-1
+
+build cmake_object_order_depends_target_variable-parameter-1: phony || CMakeFiles/variable-parameter-1.dir
+
+build CMakeFiles/variable-parameter-1.dir/src/variableparameter/variable-parameter-1.c.o: C_COMPILER__variable-parameter-1_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/variableparameter/variable-parameter-1.c || cmake_object_order_depends_target_variable-parameter-1
+  DEP_FILE = CMakeFiles/variable-parameter-1.dir/src/variableparameter/variable-parameter-1.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/variable-parameter-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/variable-parameter-1.dir/src/variableparameter
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target variable-parameter-1
+
+
+#############################################
+# Link the executable variable-parameter-1
+
+build variable-parameter-1: C_EXECUTABLE_LINKER__variable-parameter-1_Debug CMakeFiles/variable-parameter-1.dir/src/variableparameter/variable-parameter-1.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/variable-parameter-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = variable-parameter-1
+  TARGET_PDB = variable-parameter-1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target variable-parameter-2
+
+
+#############################################
+# Order-only phony target for variable-parameter-2
+
+build cmake_object_order_depends_target_variable-parameter-2: phony || CMakeFiles/variable-parameter-2.dir
+
+build CMakeFiles/variable-parameter-2.dir/src/variableparameter/variable-parameter-2.c.o: C_COMPILER__variable-parameter-2_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/variableparameter/variable-parameter-2.c || cmake_object_order_depends_target_variable-parameter-2
+  DEP_FILE = CMakeFiles/variable-parameter-2.dir/src/variableparameter/variable-parameter-2.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/variable-parameter-2.dir
+  OBJECT_FILE_DIR = CMakeFiles/variable-parameter-2.dir/src/variableparameter
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target variable-parameter-2
+
+
+#############################################
+# Link the executable variable-parameter-2
+
+build variable-parameter-2: C_EXECUTABLE_LINKER__variable-parameter-2_Debug CMakeFiles/variable-parameter-2.dir/src/variableparameter/variable-parameter-2.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/variable-parameter-2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = variable-parameter-2
+  TARGET_PDB = variable-parameter-2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target variable-parameter-3
+
+
+#############################################
+# Order-only phony target for variable-parameter-3
+
+build cmake_object_order_depends_target_variable-parameter-3: phony || CMakeFiles/variable-parameter-3.dir
+
+build CMakeFiles/variable-parameter-3.dir/src/variableparameter/variable-parameter-3.c.o: C_COMPILER__variable-parameter-3_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/variableparameter/variable-parameter-3.c || cmake_object_order_depends_target_variable-parameter-3
+  DEP_FILE = CMakeFiles/variable-parameter-3.dir/src/variableparameter/variable-parameter-3.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/variable-parameter-3.dir
+  OBJECT_FILE_DIR = CMakeFiles/variable-parameter-3.dir/src/variableparameter
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target variable-parameter-3
+
+
+#############################################
+# Link the executable variable-parameter-3
+
+build variable-parameter-3: C_EXECUTABLE_LINKER__variable-parameter-3_Debug CMakeFiles/variable-parameter-3.dir/src/variableparameter/variable-parameter-3.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/variable-parameter-3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = variable-parameter-3
+  TARGET_PDB = variable-parameter-3.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1914,7 +2007,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned errno-perror-strerror extern-constant extern-func extern-func-1 extern-var-func extern-var-func-1 c-extern extern-var-func-2 by-zero-error factorial fibonacci variable-parameter
+build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned errno-perror-strerror extern-constant extern-func extern-func-1 extern-var-func extern-var-func-1 c-extern extern-var-func-2 by-zero-error factorial fibonacci variable-parameter variable-parameter-1 variable-parameter-2 variable-parameter-3
 
 # =============================================================================
 # Built-in targets
