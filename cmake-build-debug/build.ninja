@@ -1973,6 +1973,68 @@ build variable-parameter-3: C_EXECUTABLE_LINKER__variable-parameter-3_Debug CMak
   TARGET_FILE = variable-parameter-3
   TARGET_PDB = variable-parameter-3.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target dynamic-memory-allocation
+
+
+#############################################
+# Order-only phony target for dynamic-memory-allocation
+
+build cmake_object_order_depends_target_dynamic-memory-allocation: phony || CMakeFiles/dynamic-memory-allocation.dir
+
+build CMakeFiles/dynamic-memory-allocation.dir/src/memmgmt/dynamic-memory-allocation.c.o: C_COMPILER__dynamic-memory-allocation_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/memmgmt/dynamic-memory-allocation.c || cmake_object_order_depends_target_dynamic-memory-allocation
+  DEP_FILE = CMakeFiles/dynamic-memory-allocation.dir/src/memmgmt/dynamic-memory-allocation.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/dynamic-memory-allocation.dir
+  OBJECT_FILE_DIR = CMakeFiles/dynamic-memory-allocation.dir/src/memmgmt
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dynamic-memory-allocation
+
+
+#############################################
+# Link the executable dynamic-memory-allocation
+
+build dynamic-memory-allocation: C_EXECUTABLE_LINKER__dynamic-memory-allocation_Debug CMakeFiles/dynamic-memory-allocation.dir/src/memmgmt/dynamic-memory-allocation.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/dynamic-memory-allocation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = dynamic-memory-allocation
+  TARGET_PDB = dynamic-memory-allocation.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target realloc-free-memory
+
+
+#############################################
+# Order-only phony target for realloc-free-memory
+
+build cmake_object_order_depends_target_realloc-free-memory: phony || CMakeFiles/realloc-free-memory.dir
+
+build CMakeFiles/realloc-free-memory.dir/src/memmgmt/realloc-free-memory.c.o: C_COMPILER__realloc-free-memory_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/memmgmt/realloc-free-memory.c || cmake_object_order_depends_target_realloc-free-memory
+  DEP_FILE = CMakeFiles/realloc-free-memory.dir/src/memmgmt/realloc-free-memory.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/realloc-free-memory.dir
+  OBJECT_FILE_DIR = CMakeFiles/realloc-free-memory.dir/src/memmgmt
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target realloc-free-memory
+
+
+#############################################
+# Link the executable realloc-free-memory
+
+build realloc-free-memory: C_EXECUTABLE_LINKER__realloc-free-memory_Debug CMakeFiles/realloc-free-memory.dir/src/memmgmt/realloc-free-memory.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/realloc-free-memory.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = realloc-free-memory
+  TARGET_PDB = realloc-free-memory.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2007,7 +2069,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned errno-perror-strerror extern-constant extern-func extern-func-1 extern-var-func extern-var-func-1 c-extern extern-var-func-2 by-zero-error factorial fibonacci variable-parameter variable-parameter-1 variable-parameter-2 variable-parameter-3
+build all: phony struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned errno-perror-strerror extern-constant extern-func extern-func-1 extern-var-func extern-var-func-1 c-extern extern-var-func-2 by-zero-error factorial fibonacci variable-parameter variable-parameter-1 variable-parameter-2 variable-parameter-3 dynamic-memory-allocation realloc-free-memory
 
 # =============================================================================
 # Built-in targets
