@@ -210,3 +210,7 @@
 35	54	1723100103181021844	realloc-free-memory	4c89e95214c4e2d0
 2	35	1723100147534024514	CMakeFiles/realloc-free-memory.dir/src/memmgmt/realloc-free-memory.c.o	5ba298a9b80d10f7
 35	54	1723100147567024516	realloc-free-memory	4c89e95214c4e2d0
+2	35	1723187338587954881	CMakeFiles/realloc-free-memory.dir/src/memmgmt/realloc-free-memory.c.o	5ba298a9b80d10f7
+35	226	1723187338620954881	realloc-free-memory	4c89e95214c4e2d0
+2	35	1723187387972955627	CMakeFiles/dynamic-memory-allocation.dir/src/memmgmt/dynamic-memory-allocation.c.o	ed3851e246b1414b
+35	61	1723187388005955627	dynamic-memory-allocation	57b07f908a22d11b
