@@ -1,3 +1,4 @@
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/main.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/struct-define-init.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/access-struct-member.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/struct-as-function-parameter.dir
