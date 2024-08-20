@@ -78,7 +78,9 @@
 						60,
 						61,
 						62,
-						63
+						63,
+						64,
+						65
 					]
 				}
 			],
@@ -156,7 +158,9 @@
 						60,
 						61,
 						62,
-						63
+						63,
+						64,
+						65
 					]
 				}
 			],
@@ -230,6 +234,13 @@
 					"id" : "bit-operation::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-bit-operation-Debug-afc2ab9e69200784bf90.json",
 					"name" : "bit-operation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bubble-sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bubble-sort-Debug-327e0bcdf17cdd3eaeaf.json",
+					"name" : "bubble-sort",
 					"projectIndex" : 0
 				},
 				{
@@ -489,6 +500,13 @@
 					"id" : "scanf-and-printf::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-scanf-and-printf-Debug-a9e36c49c47fd99664f4.json",
 					"name" : "scanf-and-printf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "selection-sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-selection-sort-Debug-55a18d0eb8bf827ad768.json",
+					"name" : "selection-sort",
 					"projectIndex" : 0
 				},
 				{

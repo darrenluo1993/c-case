@@ -2066,6 +2066,68 @@ build realloc-free-memory: C_EXECUTABLE_LINKER__realloc-free-memory_Debug CMakeF
   TARGET_FILE = realloc-free-memory
   TARGET_PDB = realloc-free-memory.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target bubble-sort
+
+
+#############################################
+# Order-only phony target for bubble-sort
+
+build cmake_object_order_depends_target_bubble-sort: phony || CMakeFiles/bubble-sort.dir
+
+build CMakeFiles/bubble-sort.dir/src/sortalgorithm/bubble-sort.c.o: C_COMPILER__bubble-sort_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/sortalgorithm/bubble-sort.c || cmake_object_order_depends_target_bubble-sort
+  DEP_FILE = CMakeFiles/bubble-sort.dir/src/sortalgorithm/bubble-sort.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/bubble-sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/bubble-sort.dir/src/sortalgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bubble-sort
+
+
+#############################################
+# Link the executable bubble-sort
+
+build bubble-sort: C_EXECUTABLE_LINKER__bubble-sort_Debug CMakeFiles/bubble-sort.dir/src/sortalgorithm/bubble-sort.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/bubble-sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bubble-sort
+  TARGET_PDB = bubble-sort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target selection-sort
+
+
+#############################################
+# Order-only phony target for selection-sort
+
+build cmake_object_order_depends_target_selection-sort: phony || CMakeFiles/selection-sort.dir
+
+build CMakeFiles/selection-sort.dir/src/sortalgorithm/selection-sort.c.o: C_COMPILER__selection-sort_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/sortalgorithm/selection-sort.c || cmake_object_order_depends_target_selection-sort
+  DEP_FILE = CMakeFiles/selection-sort.dir/src/sortalgorithm/selection-sort.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/selection-sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/selection-sort.dir/src/sortalgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target selection-sort
+
+
+#############################################
+# Link the executable selection-sort
+
+build selection-sort: C_EXECUTABLE_LINKER__selection-sort_Debug CMakeFiles/selection-sort.dir/src/sortalgorithm/selection-sort.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/selection-sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = selection-sort
+  TARGET_PDB = selection-sort.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2100,7 +2162,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony main struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned errno-perror-strerror extern-constant extern-func extern-func-1 extern-var-func extern-var-func-1 c-extern extern-var-func-2 by-zero-error factorial fibonacci variable-parameter variable-parameter-1 variable-parameter-2 variable-parameter-3 dynamic-memory-allocation realloc-free-memory
+build all: phony main struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned errno-perror-strerror extern-constant extern-func extern-func-1 extern-var-func extern-var-func-1 c-extern extern-var-func-2 by-zero-error factorial fibonacci variable-parameter variable-parameter-1 variable-parameter-2 variable-parameter-3 dynamic-memory-allocation realloc-free-memory bubble-sort selection-sort
 
 # =============================================================================
 # Built-in targets

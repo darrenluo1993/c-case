@@ -62,5 +62,7 @@
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/variable-parameter-3.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/dynamic-memory-allocation.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/realloc-free-memory.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/bubble-sort.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/selection-sort.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/rebuild_cache.dir

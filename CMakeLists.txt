@@ -74,3 +74,5 @@ add_executable(variable-parameter-2 src/variableparameter/variable-parameter-2.c
 add_executable(variable-parameter-3 src/variableparameter/variable-parameter-3.c)
 add_executable(dynamic-memory-allocation src/memmgmt/dynamic-memory-allocation.c)
 add_executable(realloc-free-memory src/memmgmt/realloc-free-memory.c)
+add_executable(bubble-sort src/sortalgorithm/bubble-sort.c)
+add_executable(selection-sort src/sortalgorithm/selection-sort.c)
