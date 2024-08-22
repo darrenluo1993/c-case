@@ -2128,6 +2128,192 @@ build selection-sort: C_EXECUTABLE_LINKER__selection-sort_Debug CMakeFiles/selec
   TARGET_FILE = selection-sort
   TARGET_PDB = selection-sort.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target insertion-sort
+
+
+#############################################
+# Order-only phony target for insertion-sort
+
+build cmake_object_order_depends_target_insertion-sort: phony || CMakeFiles/insertion-sort.dir
+
+build CMakeFiles/insertion-sort.dir/src/sortalgorithm/insertion-sort.c.o: C_COMPILER__insertion-sort_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/sortalgorithm/insertion-sort.c || cmake_object_order_depends_target_insertion-sort
+  DEP_FILE = CMakeFiles/insertion-sort.dir/src/sortalgorithm/insertion-sort.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/insertion-sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/insertion-sort.dir/src/sortalgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target insertion-sort
+
+
+#############################################
+# Link the executable insertion-sort
+
+build insertion-sort: C_EXECUTABLE_LINKER__insertion-sort_Debug CMakeFiles/insertion-sort.dir/src/sortalgorithm/insertion-sort.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/insertion-sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = insertion-sort
+  TARGET_PDB = insertion-sort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target shell-sort
+
+
+#############################################
+# Order-only phony target for shell-sort
+
+build cmake_object_order_depends_target_shell-sort: phony || CMakeFiles/shell-sort.dir
+
+build CMakeFiles/shell-sort.dir/src/sortalgorithm/shell-sort.c.o: C_COMPILER__shell-sort_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/sortalgorithm/shell-sort.c || cmake_object_order_depends_target_shell-sort
+  DEP_FILE = CMakeFiles/shell-sort.dir/src/sortalgorithm/shell-sort.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/shell-sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/shell-sort.dir/src/sortalgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target shell-sort
+
+
+#############################################
+# Link the executable shell-sort
+
+build shell-sort: C_EXECUTABLE_LINKER__shell-sort_Debug CMakeFiles/shell-sort.dir/src/sortalgorithm/shell-sort.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/shell-sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = shell-sort
+  TARGET_PDB = shell-sort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target merge-sort-iteration
+
+
+#############################################
+# Order-only phony target for merge-sort-iteration
+
+build cmake_object_order_depends_target_merge-sort-iteration: phony || CMakeFiles/merge-sort-iteration.dir
+
+build CMakeFiles/merge-sort-iteration.dir/src/sortalgorithm/merge-sort-iteration.c.o: C_COMPILER__merge-sort-iteration_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/sortalgorithm/merge-sort-iteration.c || cmake_object_order_depends_target_merge-sort-iteration
+  DEP_FILE = CMakeFiles/merge-sort-iteration.dir/src/sortalgorithm/merge-sort-iteration.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/merge-sort-iteration.dir
+  OBJECT_FILE_DIR = CMakeFiles/merge-sort-iteration.dir/src/sortalgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target merge-sort-iteration
+
+
+#############################################
+# Link the executable merge-sort-iteration
+
+build merge-sort-iteration: C_EXECUTABLE_LINKER__merge-sort-iteration_Debug CMakeFiles/merge-sort-iteration.dir/src/sortalgorithm/merge-sort-iteration.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/merge-sort-iteration.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = merge-sort-iteration
+  TARGET_PDB = merge-sort-iteration.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target merge-sort-recursion
+
+
+#############################################
+# Order-only phony target for merge-sort-recursion
+
+build cmake_object_order_depends_target_merge-sort-recursion: phony || CMakeFiles/merge-sort-recursion.dir
+
+build CMakeFiles/merge-sort-recursion.dir/src/sortalgorithm/merge-sort-recursion.c.o: C_COMPILER__merge-sort-recursion_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/sortalgorithm/merge-sort-recursion.c || cmake_object_order_depends_target_merge-sort-recursion
+  DEP_FILE = CMakeFiles/merge-sort-recursion.dir/src/sortalgorithm/merge-sort-recursion.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/merge-sort-recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/merge-sort-recursion.dir/src/sortalgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target merge-sort-recursion
+
+
+#############################################
+# Link the executable merge-sort-recursion
+
+build merge-sort-recursion: C_EXECUTABLE_LINKER__merge-sort-recursion_Debug CMakeFiles/merge-sort-recursion.dir/src/sortalgorithm/merge-sort-recursion.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/merge-sort-recursion.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = merge-sort-recursion
+  TARGET_PDB = merge-sort-recursion.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target quick-sort-iteration
+
+
+#############################################
+# Order-only phony target for quick-sort-iteration
+
+build cmake_object_order_depends_target_quick-sort-iteration: phony || CMakeFiles/quick-sort-iteration.dir
+
+build CMakeFiles/quick-sort-iteration.dir/src/sortalgorithm/quick-sort-iteration.c.o: C_COMPILER__quick-sort-iteration_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/sortalgorithm/quick-sort-iteration.c || cmake_object_order_depends_target_quick-sort-iteration
+  DEP_FILE = CMakeFiles/quick-sort-iteration.dir/src/sortalgorithm/quick-sort-iteration.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/quick-sort-iteration.dir
+  OBJECT_FILE_DIR = CMakeFiles/quick-sort-iteration.dir/src/sortalgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quick-sort-iteration
+
+
+#############################################
+# Link the executable quick-sort-iteration
+
+build quick-sort-iteration: C_EXECUTABLE_LINKER__quick-sort-iteration_Debug CMakeFiles/quick-sort-iteration.dir/src/sortalgorithm/quick-sort-iteration.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/quick-sort-iteration.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = quick-sort-iteration
+  TARGET_PDB = quick-sort-iteration.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target quick-sort-recursion
+
+
+#############################################
+# Order-only phony target for quick-sort-recursion
+
+build cmake_object_order_depends_target_quick-sort-recursion: phony || CMakeFiles/quick-sort-recursion.dir
+
+build CMakeFiles/quick-sort-recursion.dir/src/sortalgorithm/quick-sort-recursion.c.o: C_COMPILER__quick-sort-recursion_unscanned_Debug /home/darren/Workspaces/CLion/c-case/src/sortalgorithm/quick-sort-recursion.c || cmake_object_order_depends_target_quick-sort-recursion
+  DEP_FILE = CMakeFiles/quick-sort-recursion.dir/src/sortalgorithm/quick-sort-recursion.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/quick-sort-recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/quick-sort-recursion.dir/src/sortalgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quick-sort-recursion
+
+
+#############################################
+# Link the executable quick-sort-recursion
+
+build quick-sort-recursion: C_EXECUTABLE_LINKER__quick-sort-recursion_Debug CMakeFiles/quick-sort-recursion.dir/src/sortalgorithm/quick-sort-recursion.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/quick-sort-recursion.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = quick-sort-recursion
+  TARGET_PDB = quick-sort-recursion.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2162,7 +2348,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/darren/Workspaces/CLion/c-case/cmake-build-debug
 
-build all: phony main struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned errno-perror-strerror extern-constant extern-func extern-func-1 extern-var-func extern-var-func-1 c-extern extern-var-func-2 by-zero-error factorial fibonacci variable-parameter variable-parameter-1 variable-parameter-2 variable-parameter-3 dynamic-memory-allocation realloc-free-memory bubble-sort selection-sort
+build all: phony main struct-define-init access-struct-member struct-as-function-parameter struct-pointer-as-function-parameter calculate-struct-size union-declare-define access-union-member-incorrect access-union-member-correct struct-and-bit-field declare-use-bit-field declare-use-bit-field-1 use-bit-field-by-pointer bit-field-memsize-test typedef-vs-define getchar-and-putchar gets-and-puts scanf-and-printf sizeof type-cast file-read-write parse-csv-file file-write file-read 2d-array-addressing array 2d-array-step-size file-seek predefine-macro string-constant mark-paste defined parameterized-macro bit-operation precedence-of-operator assignment-operation miscellaneous-operation force-type-cast integer-lifting arithmetic-conversion char-short-convert-to-int decimals-to-int int-to-decimals short-type-to-long-type long-type-to-short-type unsigned-to-signed signed-to-unsigned errno-perror-strerror extern-constant extern-func extern-func-1 extern-var-func extern-var-func-1 c-extern extern-var-func-2 by-zero-error factorial fibonacci variable-parameter variable-parameter-1 variable-parameter-2 variable-parameter-3 dynamic-memory-allocation realloc-free-memory bubble-sort selection-sort insertion-sort shell-sort merge-sort-iteration merge-sort-recursion quick-sort-iteration quick-sort-recursion
 
 # =============================================================================
 # Built-in targets

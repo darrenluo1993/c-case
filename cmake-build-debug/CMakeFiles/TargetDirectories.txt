@@ -64,5 +64,11 @@
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/realloc-free-memory.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/bubble-sort.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/selection-sort.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/insertion-sort.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/shell-sort.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/merge-sort-iteration.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/merge-sort-recursion.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/quick-sort-iteration.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/quick-sort-recursion.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/rebuild_cache.dir
