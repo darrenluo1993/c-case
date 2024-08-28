@@ -4,7 +4,7 @@
 #include <mysql/mysql.h>
 
 // 定义CSV文件路径
-#define CSV_FILE_PATH "/home/darren/Workspaces/CLion/c-case/resources/students.csv"
+#define CSV_FILE_PATH "../resources/students.csv"
 
 /**
  * 初始化并连接到MySQL数据库
