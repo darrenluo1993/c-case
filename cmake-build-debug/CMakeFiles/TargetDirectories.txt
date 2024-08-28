@@ -70,5 +70,7 @@
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/merge-sort-recursion.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/quick-sort-iteration.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/quick-sort-recursion.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/parse-csv-and-insert-into-mysql.dir
+/home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/constant.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/darren/Workspaces/CLion/c-case/cmake-build-debug/CMakeFiles/rebuild_cache.dir

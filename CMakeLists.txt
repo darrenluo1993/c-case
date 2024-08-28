@@ -82,3 +82,7 @@ add_executable(merge-sort-iteration src/sortalgorithm/merge-sort-iteration.c)
 add_executable(merge-sort-recursion src/sortalgorithm/merge-sort-recursion.c)
 add_executable(quick-sort-iteration src/sortalgorithm/quick-sort-iteration.c)
 add_executable(quick-sort-recursion src/sortalgorithm/quick-sort-recursion.c)
+add_executable(parse-csv-and-insert-into-mysql src/filereadwrite/parse-csv-and-insert-into-mysql.c)
+add_executable(constant src/constant/constant.c)
+
+target_link_libraries(parse-csv-and-insert-into-mysql -lmysqlclient)
